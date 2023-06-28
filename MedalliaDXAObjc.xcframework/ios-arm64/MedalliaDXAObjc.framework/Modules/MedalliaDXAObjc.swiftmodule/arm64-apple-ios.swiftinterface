@@ -1,0 +1,154 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MedalliaDXAObjc
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import MedalliaDXA
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@objc public enum DXAMaskAutomatic : Swift.Int {
+  case labels
+  case inputs
+  case images
+  case webViews
+  case forms
+  case all
+  case noMask
+  case unmaskInputs
+  case unmaskWebViews
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DXAMaskView : Swift.Int {
+  case automatic
+  case mask
+  case unmask
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc extension UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public var dxaMaskingObjc: MedalliaDXAObjc.DXAMaskView {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) dynamic public var dxaFormTrackObjc: Swift.Bool {
+    @objc get
+    @objc set
+  }
+}
+@objc extension UIKit.UIViewController {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public var dxaScreenNameObjc: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) dynamic public var dxaDisableRecordingOnThisScreenObjc: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) dynamic public var dxaDisableAnalyticsAndRecordingOnThisScreenObjc: Swift.Bool {
+    @objc get
+    @objc set
+  }
+}
+@objc public class DXAConfiguration : ObjectiveC.NSObject {
+  @objc public init(account: Swift.String, property: Swift.String, consent: MedalliaDXAObjc.DXAConsent, crashReporterEnabled: Swift.Bool, mobileDataEnable: Swift.Bool, manualScreenTracking: Swift.Bool)
+  @objc public init(account: Swift.String, property: Swift.String, consent: MedalliaDXAObjc.DXAConsent)
+  @objc public init(account: Swift.String, property: Swift.String)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class DXAObjc : ObjectiveC.NSObject {
+  @objc public static func initialize(_ configuration: MedalliaDXAObjc.DXAConfiguration)
+  @objc public static func startNewScreen(name: Swift.String)
+  @objc public static func setMaskingForCurrentScreen(mask: MedalliaDXAObjc.DXAMaskAutomatic)
+  @objc public static func send(goal: Swift.String, with value: Swift.Float)
+  @objc public static func send(goal: Swift.String)
+  @objc public static func send(dimension: Swift.String, withString value: Swift.String)
+  @objc public static func send(dimension: Swift.String, withBool value: Swift.Bool)
+  @objc public static func send(dimension: Swift.String, withNumber value: Swift.Double)
+  @objc public static func setAutomaticMask(_ configuration: MedalliaDXAObjc.DXAMaskAutomatic)
+  @objc public static func mask(rect area: CoreFoundation.CGRect)
+  @objc public static func setConsent(_ consent: MedalliaDXAObjc.DXAConsent)
+  @objc public static func setImageQuality(_ quality: MedalliaDXAObjc.DXAImageQuality)
+  @objc public static func setMaskingColor(_ color: UIKit.UIColor)
+  @objc public static func sendHTTPError(statusCode: Swift.Int)
+  @objc public static func formSuccess()
+  @objc public static func formError(error: Swift.String, selector: UIKit.UIView?)
+  @objc public static var webViewProperties: Swift.String? {
+    @objc get
+  }
+  @objc public static var sessionURL: Swift.String? {
+    @objc get
+  }
+  @objc public static var sessionId: Swift.String? {
+    @objc get
+  }
+  @objc public static var mobileDataEnable: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static func enableSessionForExperience(_ enabled: Swift.Bool)
+  @objc public static func enableSessionForAnalysis(_ enabled: Swift.Bool)
+  @objc public static func enableSessionForReplay(_ enabled: Swift.Bool)
+  @objc public static func enableScreenForAnalysis(_ enabled: Swift.Bool)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum DXAConsent : Swift.Int {
+  case recordingAndTracking
+  case tracking
+  case noConsent
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class DXAPlatform : ObjectiveC.NSObject {
+  public init(type: MedalliaDXAObjc.DXAPlatformType, version: Swift.String, language: Swift.String)
+  @objc deinit
+}
+@objc public enum DXAPlatformType : Swift.Int {
+  case native
+  case flutter
+  case xamarin
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DXAImageQuality : Swift.Int {
+  case poor = 0
+  case low
+  case average
+  case high
+  case ultra
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension MedalliaDXAObjc.DXAMaskAutomatic : Swift.Equatable {}
+extension MedalliaDXAObjc.DXAMaskAutomatic : Swift.Hashable {}
+extension MedalliaDXAObjc.DXAMaskAutomatic : Swift.RawRepresentable {}
+extension MedalliaDXAObjc.DXAMaskView : Swift.Equatable {}
+extension MedalliaDXAObjc.DXAMaskView : Swift.Hashable {}
+extension MedalliaDXAObjc.DXAMaskView : Swift.RawRepresentable {}
+extension MedalliaDXAObjc.DXAConsent : Swift.Equatable {}
+extension MedalliaDXAObjc.DXAConsent : Swift.Hashable {}
+extension MedalliaDXAObjc.DXAConsent : Swift.RawRepresentable {}
+extension MedalliaDXAObjc.DXAPlatformType : Swift.Equatable {}
+extension MedalliaDXAObjc.DXAPlatformType : Swift.Hashable {}
+extension MedalliaDXAObjc.DXAPlatformType : Swift.RawRepresentable {}
+extension MedalliaDXAObjc.DXAImageQuality : Swift.Equatable {}
+extension MedalliaDXAObjc.DXAImageQuality : Swift.Hashable {}
+extension MedalliaDXAObjc.DXAImageQuality : Swift.RawRepresentable {}
