@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MedalliaDXAObjc
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -67,6 +67,8 @@ import _StringProcessing
 @_inheritsConvenienceInitializers @objc public class DXAObjc : ObjectiveC.NSObject {
   @objc public static func initialize(_ configuration: MedalliaDXAObjc.DXAConfiguration)
   @objc public static func startNewScreen(name: Swift.String)
+  @objc public static func startNewScreen(name: Swift.String, disableRecordingOnThisScreen: Swift.Bool)
+  @objc public static func stopScreen()
   @objc public static func setMaskingForCurrentScreen(mask: MedalliaDXAObjc.DXAMaskAutomatic)
   @objc public static func send(goal: Swift.String, with value: Swift.Float)
   @objc public static func send(goal: Swift.String)
@@ -79,13 +81,15 @@ import _StringProcessing
   @objc public static func setImageQuality(_ quality: MedalliaDXAObjc.DXAImageQuality)
   @objc public static func setMaskingColor(_ color: UIKit.UIColor)
   @objc public static func sendHTTPError(statusCode: Swift.Int)
+  @objc public static func sendError(_ error: Swift.String)
   @objc public static func formSuccess()
   @objc public static func formError(error: Swift.String, selector: UIKit.UIView?)
   @objc public static var webViewProperties: Swift.String? {
     @objc get
   }
-  @objc public static var sessionURL: Swift.String? {
+  @objc public static var sessionURL: ((Swift.String?) -> ())? {
     @objc get
+    @objc set
   }
   @objc public static var sessionId: Swift.String? {
     @objc get
