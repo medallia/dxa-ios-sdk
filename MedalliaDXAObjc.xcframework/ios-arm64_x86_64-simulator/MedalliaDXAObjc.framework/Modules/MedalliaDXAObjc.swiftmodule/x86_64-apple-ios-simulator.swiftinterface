@@ -59,7 +59,7 @@ import _StringProcessing
   }
 }
 @objc public class DXAConfiguration : ObjectiveC.NSObject {
-  @objc public init(account: Swift.String, property: Swift.String, consent: MedalliaDXAObjc.DXAConsent, crashReporterEnabled: Swift.Bool, mobileDataEnable: Swift.Bool, manualScreenTracking: Swift.Bool)
+  @objc public init(account: Swift.String, property: Swift.String, consent: MedalliaDXAObjc.DXAConsent, crashReporterEnabled: Swift.Bool, mobileDataEnable: Swift.Bool, manualScreenTracking: Swift.Bool, enhancedLogsEnabled: Swift.Bool)
   @objc public init(account: Swift.String, property: Swift.String, consent: MedalliaDXAObjc.DXAConsent)
   @objc public init(account: Swift.String, property: Swift.String)
   @objc deinit
@@ -98,10 +98,9 @@ import _StringProcessing
     @objc get
     @objc set
   }
-  @objc public static func enableSessionForExperience(_ enabled: Swift.Bool)
-  @objc public static func enableSessionForAnalysis(_ enabled: Swift.Bool)
-  @objc public static func enableSessionForReplay(_ enabled: Swift.Bool)
-  @objc public static func enableScreenForAnalysis(_ enabled: Swift.Bool)
+  @objc public static func enableSessionForAnalytics(_ enabled: Swift.Bool)
+  @objc public static func enableSessionForRecording(_ enabled: Swift.Bool)
+  @objc public static func setRetention(_ enabled: Swift.Bool)
   @objc override dynamic public init()
   @objc deinit
 }

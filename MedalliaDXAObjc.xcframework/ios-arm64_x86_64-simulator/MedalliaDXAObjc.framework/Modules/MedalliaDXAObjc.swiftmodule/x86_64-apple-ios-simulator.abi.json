@@ -888,7 +888,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(account:property:consent:crashReporterEnabled:mobileDataEnable:manualScreenTracking:)",
+            "printedName": "init(account:property:consent:crashReporterEnabled:mobileDataEnable:manualScreenTracking:enhancedLogsEnabled:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -931,13 +931,19 @@
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@MedalliaDXAObjc@objc(cs)DXAConfiguration(im)initWithAccount:property:consent:crashReporterEnabled:mobileDataEnable:manualScreenTracking:",
-            "mangledName": "$s15MedalliaDXAObjc16DXAConfigurationC7account8property7consent20crashReporterEnabled16mobileDataEnable20manualScreenTrackingACSS_SSAA10DXAConsentOS3btcfc",
+            "usr": "c:@M@MedalliaDXAObjc@objc(cs)DXAConfiguration(im)initWithAccount:property:consent:crashReporterEnabled:mobileDataEnable:manualScreenTracking:enhancedLogsEnabled:",
+            "mangledName": "$s15MedalliaDXAObjc16DXAConfigurationC7account8property7consent20crashReporterEnabled16mobileDataEnable20manualScreenTracking012enhancedLogsI0ACSS_SSAA10DXAConsentOS4btcfc",
             "moduleName": "MedalliaDXAObjc",
-            "objc_name": "initWithAccount:property:consent:crashReporterEnabled:mobileDataEnable:manualScreenTracking:",
+            "objc_name": "initWithAccount:property:consent:crashReporterEnabled:mobileDataEnable:manualScreenTracking:enhancedLogsEnabled:",
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -2181,8 +2187,8 @@
           },
           {
             "kind": "Function",
-            "name": "enableSessionForExperience",
-            "printedName": "enableSessionForExperience(_:)",
+            "name": "enableSessionForAnalytics",
+            "printedName": "enableSessionForAnalytics(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2197,8 +2203,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@MedalliaDXAObjc@objc(cs)DXAObjc(cm)enableSessionForExperience:",
-            "mangledName": "$s15MedalliaDXAObjc0B0C26enableSessionForExperienceyySbFZ",
+            "usr": "c:@M@MedalliaDXAObjc@objc(cs)DXAObjc(cm)enableSessionForAnalytics:",
+            "mangledName": "$s15MedalliaDXAObjc0B0C25enableSessionForAnalyticsyySbFZ",
             "moduleName": "MedalliaDXAObjc",
             "static": true,
             "declAttributes": [
@@ -2211,8 +2217,8 @@
           },
           {
             "kind": "Function",
-            "name": "enableSessionForAnalysis",
-            "printedName": "enableSessionForAnalysis(_:)",
+            "name": "enableSessionForRecording",
+            "printedName": "enableSessionForRecording(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2227,8 +2233,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@MedalliaDXAObjc@objc(cs)DXAObjc(cm)enableSessionForAnalysis:",
-            "mangledName": "$s15MedalliaDXAObjc0B0C24enableSessionForAnalysisyySbFZ",
+            "usr": "c:@M@MedalliaDXAObjc@objc(cs)DXAObjc(cm)enableSessionForRecording:",
+            "mangledName": "$s15MedalliaDXAObjc0B0C25enableSessionForRecordingyySbFZ",
             "moduleName": "MedalliaDXAObjc",
             "static": true,
             "declAttributes": [
@@ -2241,8 +2247,8 @@
           },
           {
             "kind": "Function",
-            "name": "enableSessionForReplay",
-            "printedName": "enableSessionForReplay(_:)",
+            "name": "setRetention",
+            "printedName": "setRetention(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2257,38 +2263,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@MedalliaDXAObjc@objc(cs)DXAObjc(cm)enableSessionForReplay:",
-            "mangledName": "$s15MedalliaDXAObjc0B0C22enableSessionForReplayyySbFZ",
-            "moduleName": "MedalliaDXAObjc",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "enableScreenForAnalysis",
-            "printedName": "enableScreenForAnalysis(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MedalliaDXAObjc@objc(cs)DXAObjc(cm)enableScreenForAnalysis:",
-            "mangledName": "$s15MedalliaDXAObjc0B0C23enableScreenForAnalysisyySbFZ",
+            "usr": "c:@M@MedalliaDXAObjc@objc(cs)DXAObjc(cm)setRetention:",
+            "mangledName": "$s15MedalliaDXAObjc0B0C12setRetentionyySbFZ",
             "moduleName": "MedalliaDXAObjc",
             "static": true,
             "declAttributes": [
@@ -4502,7 +4478,7 @@
     {
       "filePath": "\/Users\/ec2-user\/builds\/jxGFawBd\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/DXAObjc.swift",
       "kind": "BooleanLiteral",
-      "offset": 6852,
+      "offset": 6847,
       "length": 4,
       "value": "true"
     },

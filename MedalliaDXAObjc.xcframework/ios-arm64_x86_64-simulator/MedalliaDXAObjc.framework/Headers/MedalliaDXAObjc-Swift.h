@@ -310,7 +310,7 @@ SWIFT_CLASS("_TtC15MedalliaDXAObjc16DXAConfiguration")
 ///
 /// returns:
 /// A new instance of the class configured with the provided parameters.
-- (nonnull instancetype)initWithAccount:(NSString * _Nonnull)account property:(NSString * _Nonnull)property consent:(enum DXAConsent)consent crashReporterEnabled:(BOOL)crashReporterEnabled mobileDataEnable:(BOOL)mobileDataEnable manualScreenTracking:(BOOL)manualScreenTracking OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithAccount:(NSString * _Nonnull)account property:(NSString * _Nonnull)property consent:(enum DXAConsent)consent crashReporterEnabled:(BOOL)crashReporterEnabled mobileDataEnable:(BOOL)mobileDataEnable manualScreenTracking:(BOOL)manualScreenTracking enhancedLogsEnabled:(BOOL)enhancedLogsEnabled OBJC_DESIGNATED_INITIALIZER;
 /// Creates a new instance of the class with the provided configuration parameters.
 /// \param account Client account.
 ///
@@ -628,22 +628,18 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nu
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL mobileDataEnable;)
 + (BOOL)mobileDataEnable SWIFT_WARN_UNUSED_RESULT;
 + (void)setMobileDataEnable:(BOOL)value;
-/// Add or remove session to get user experience.
-/// \param enabled enable or disable user experience.
+/// Add or remove session to get user analytics.
+/// \param enabled enable or disable user analytics.
 ///
-+ (void)enableSessionForExperience:(BOOL)enabled;
-/// Add or remove sessions to get application data and user interactions.
-/// \param enabled enable or disable application data and user interactions.
++ (void)enableSessionForAnalytics:(BOOL)enabled;
+/// Add or remove session to get session recording.
+/// \param enabled enable or disable session recording.
 ///
-+ (void)enableSessionForAnalysis:(BOOL)enabled;
-/// Add or remove session to get session replay.
-/// \param enabled enable or disable session replay.
++ (void)enableSessionForRecording:(BOOL)enabled;
+/// Add or remove session to get analytics and recording.
+/// \param enabled enable or disable session analytics and recording.
 ///
-+ (void)enableSessionForReplay:(BOOL)enabled;
-/// Add or remove screen to get application data and user interactions.
-/// \param enabled enable or disable application data and user interactions.
-///
-+ (void)enableScreenForAnalysis:(BOOL)enabled;
++ (void)setRetention:(BOOL)enabled;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -1017,7 +1013,7 @@ SWIFT_CLASS("_TtC15MedalliaDXAObjc16DXAConfiguration")
 ///
 /// returns:
 /// A new instance of the class configured with the provided parameters.
-- (nonnull instancetype)initWithAccount:(NSString * _Nonnull)account property:(NSString * _Nonnull)property consent:(enum DXAConsent)consent crashReporterEnabled:(BOOL)crashReporterEnabled mobileDataEnable:(BOOL)mobileDataEnable manualScreenTracking:(BOOL)manualScreenTracking OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithAccount:(NSString * _Nonnull)account property:(NSString * _Nonnull)property consent:(enum DXAConsent)consent crashReporterEnabled:(BOOL)crashReporterEnabled mobileDataEnable:(BOOL)mobileDataEnable manualScreenTracking:(BOOL)manualScreenTracking enhancedLogsEnabled:(BOOL)enhancedLogsEnabled OBJC_DESIGNATED_INITIALIZER;
 /// Creates a new instance of the class with the provided configuration parameters.
 /// \param account Client account.
 ///
@@ -1335,22 +1331,18 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nu
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL mobileDataEnable;)
 + (BOOL)mobileDataEnable SWIFT_WARN_UNUSED_RESULT;
 + (void)setMobileDataEnable:(BOOL)value;
-/// Add or remove session to get user experience.
-/// \param enabled enable or disable user experience.
+/// Add or remove session to get user analytics.
+/// \param enabled enable or disable user analytics.
 ///
-+ (void)enableSessionForExperience:(BOOL)enabled;
-/// Add or remove sessions to get application data and user interactions.
-/// \param enabled enable or disable application data and user interactions.
++ (void)enableSessionForAnalytics:(BOOL)enabled;
+/// Add or remove session to get session recording.
+/// \param enabled enable or disable session recording.
 ///
-+ (void)enableSessionForAnalysis:(BOOL)enabled;
-/// Add or remove session to get session replay.
-/// \param enabled enable or disable session replay.
++ (void)enableSessionForRecording:(BOOL)enabled;
+/// Add or remove session to get analytics and recording.
+/// \param enabled enable or disable session analytics and recording.
 ///
-+ (void)enableSessionForReplay:(BOOL)enabled;
-/// Add or remove screen to get application data and user interactions.
-/// \param enabled enable or disable application data and user interactions.
-///
-+ (void)enableScreenForAnalysis:(BOOL)enabled;
++ (void)setRetention:(BOOL)enabled;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
