@@ -2051,66 +2051,6 @@
           },
           {
             "kind": "Function",
-            "name": "enableSessionForAnalytics",
-            "printedName": "enableSessionForAnalytics(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11MedalliaDXA0B0C25enableSessionForAnalyticsyySbFZ",
-            "mangledName": "$s11MedalliaDXA0B0C25enableSessionForAnalyticsyySbFZ",
-            "moduleName": "MedalliaDXA",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "enableSessionForRecording",
-            "printedName": "enableSessionForRecording(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11MedalliaDXA0B0C25enableSessionForRecordingyySbFZ",
-            "mangledName": "$s11MedalliaDXA0B0C25enableSessionForRecordingyySbFZ",
-            "moduleName": "MedalliaDXA",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "setRetention",
             "printedName": "setRetention(_:)",
             "children": [

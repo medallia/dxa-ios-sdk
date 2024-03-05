@@ -98,8 +98,6 @@ import _StringProcessing
     @objc get
     @objc set
   }
-  @objc public static func enableSessionForAnalytics(_ enabled: Swift.Bool)
-  @objc public static func enableSessionForRecording(_ enabled: Swift.Bool)
   @objc public static func setRetention(_ enabled: Swift.Bool)
   @objc override dynamic public init()
   @objc deinit

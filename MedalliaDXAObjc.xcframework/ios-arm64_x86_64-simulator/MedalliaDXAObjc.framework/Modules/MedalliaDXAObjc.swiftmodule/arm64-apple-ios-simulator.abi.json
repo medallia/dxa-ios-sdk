@@ -2187,66 +2187,6 @@
           },
           {
             "kind": "Function",
-            "name": "enableSessionForAnalytics",
-            "printedName": "enableSessionForAnalytics(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MedalliaDXAObjc@objc(cs)DXAObjc(cm)enableSessionForAnalytics:",
-            "mangledName": "$s15MedalliaDXAObjc0B0C25enableSessionForAnalyticsyySbFZ",
-            "moduleName": "MedalliaDXAObjc",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "enableSessionForRecording",
-            "printedName": "enableSessionForRecording(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MedalliaDXAObjc@objc(cs)DXAObjc(cm)enableSessionForRecording:",
-            "mangledName": "$s15MedalliaDXAObjc0B0C25enableSessionForRecordingyySbFZ",
-            "moduleName": "MedalliaDXAObjc",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "setRetention",
             "printedName": "setRetention(_:)",
             "children": [

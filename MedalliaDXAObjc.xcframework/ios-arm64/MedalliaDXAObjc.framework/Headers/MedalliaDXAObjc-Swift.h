@@ -628,14 +628,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nu
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL mobileDataEnable;)
 + (BOOL)mobileDataEnable SWIFT_WARN_UNUSED_RESULT;
 + (void)setMobileDataEnable:(BOOL)value;
-/// Add or remove session to get user analytics.
-/// \param enabled enable or disable user analytics.
-///
-+ (void)enableSessionForAnalytics:(BOOL)enabled;
-/// Add or remove session to get session recording.
-/// \param enabled enable or disable session recording.
-///
-+ (void)enableSessionForRecording:(BOOL)enabled;
 /// Add or remove session to get analytics and recording.
 /// \param enabled enable or disable session analytics and recording.
 ///
