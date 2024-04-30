@@ -25,9 +25,9 @@ extension SwiftUI.View {
   
 }
 public enum Consent {
-  case recordingAndTracking
-  case tracking
-  case noConsent
+  case analyticsAndRecording
+  case analytics
+  case none
   public static func == (a: MedalliaDXA.Consent, b: MedalliaDXA.Consent) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -38,13 +38,13 @@ public enum Consent {
   public static func initialize(_ configuration: MedalliaDXA.Configuration)
   public static func startNewScreen(name: Swift.String, disableRecordingOnThisScreen: Swift.Bool = false)
   public static func stopScreen()
-  public static func setMaskingForCurrentScreen(mask: MedalliaDXA.MaskAutomatic)
+  public static func setMaskingForCurrentScreen(_ types: [MedalliaDXA.MaskAutomatic])
   public static func send(goal: Swift.String, with value: Swift.Float? = nil)
   public static func send(dimension: Swift.String, value: Swift.String)
   public static func send(dimension: Swift.String, value: Swift.Bool)
   public static func send(dimension: Swift.String, value: Swift.Double)
-  public static func setAutomaticMask(_ maskType: MedalliaDXA.MaskAutomatic)
-  public static func mask(rect area: CoreFoundation.CGRect)
+  public static func enableAutoMasking(_ types: [MedalliaDXA.MaskAutomatic])
+  public static func disableAutoMasking(_ types: [MedalliaDXA.MaskAutomatic])
   public static func setConsent(_ consent: MedalliaDXA.Consent)
   public static func setImageQuality(_ quality: MedalliaDXA.ImageQualityType)
   public static func setMaskingColor(_ color: UIKit.UIColor)
@@ -66,6 +66,7 @@ public enum Consent {
     get
     set
   }
+  public static func captureURLParameters(_ capture: Swift.Bool)
   @objc deinit
 }
 extension MedalliaDXA.DXA {
@@ -106,6 +107,7 @@ public enum PlatformType {
   case native
   case flutter
   case xamarin
+  case reactNative
   public static func == (a: MedalliaDXA.PlatformType, b: MedalliaDXA.PlatformType) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -117,11 +119,7 @@ public enum MaskAutomatic {
   case inputs
   case images
   case webViews
-  case forms
   case all
-  case noMask
-  case unmaskInputs
-  case unmaskWebViews
   public static func == (a: MedalliaDXA.MaskAutomatic, b: MedalliaDXA.MaskAutomatic) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -139,7 +137,7 @@ public enum MaskView {
   }
 }
 public class Configuration {
-  public init(account: Swift.String, property: Swift.String, consent: MedalliaDXA.Consent = .recordingAndTracking, crashReporterEnabled: Swift.Bool = true, mobileDataEnable: Swift.Bool = true, manualScreenTracking: Swift.Bool = false, enhancedLogsEnabled: Swift.Bool = false)
+  public init(account: Swift.String, property: Swift.String, consent: MedalliaDXA.Consent = .analyticsAndRecording, crashReporterEnabled: Swift.Bool = true, mobileDataEnable: Swift.Bool = true, manualScreenTracking: Swift.Bool = false, enhancedLogsEnabled: Swift.Bool = false, networkAnalyticsEnable: Swift.Bool = true)
   @objc deinit
 }
 extension UIKit.UIView {

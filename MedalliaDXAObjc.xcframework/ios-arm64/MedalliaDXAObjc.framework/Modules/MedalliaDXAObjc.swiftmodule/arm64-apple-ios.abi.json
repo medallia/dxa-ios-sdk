@@ -206,48 +206,6 @@
           },
           {
             "kind": "Var",
-            "name": "forms",
-            "printedName": "forms",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MedalliaDXAObjc.DXAMaskAutomatic.Type) -> MedalliaDXAObjc.DXAMaskAutomatic",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DXAMaskAutomatic",
-                    "printedName": "MedalliaDXAObjc.DXAMaskAutomatic",
-                    "usr": "c:@M@MedalliaDXAObjc@E@DXAMaskAutomatic"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MedalliaDXAObjc.DXAMaskAutomatic.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DXAMaskAutomatic",
-                        "printedName": "MedalliaDXAObjc.DXAMaskAutomatic",
-                        "usr": "c:@M@MedalliaDXAObjc@E@DXAMaskAutomatic"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@MedalliaDXAObjc@E@DXAMaskAutomatic@DXAMaskAutomaticForms",
-            "mangledName": "$s15MedalliaDXAObjc16DXAMaskAutomaticO5formsyA2CmF",
-            "moduleName": "MedalliaDXAObjc",
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "fixedbinaryorder": 4
-          },
-          {
-            "kind": "Var",
             "name": "all",
             "printedName": "all",
             "children": [
@@ -286,133 +244,7 @@
               "RawDocComment",
               "ObjC"
             ],
-            "fixedbinaryorder": 5
-          },
-          {
-            "kind": "Var",
-            "name": "noMask",
-            "printedName": "noMask",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MedalliaDXAObjc.DXAMaskAutomatic.Type) -> MedalliaDXAObjc.DXAMaskAutomatic",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DXAMaskAutomatic",
-                    "printedName": "MedalliaDXAObjc.DXAMaskAutomatic",
-                    "usr": "c:@M@MedalliaDXAObjc@E@DXAMaskAutomatic"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MedalliaDXAObjc.DXAMaskAutomatic.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DXAMaskAutomatic",
-                        "printedName": "MedalliaDXAObjc.DXAMaskAutomatic",
-                        "usr": "c:@M@MedalliaDXAObjc@E@DXAMaskAutomatic"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@MedalliaDXAObjc@E@DXAMaskAutomatic@DXAMaskAutomaticNoMask",
-            "mangledName": "$s15MedalliaDXAObjc16DXAMaskAutomaticO6noMaskyA2CmF",
-            "moduleName": "MedalliaDXAObjc",
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "fixedbinaryorder": 6
-          },
-          {
-            "kind": "Var",
-            "name": "unmaskInputs",
-            "printedName": "unmaskInputs",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MedalliaDXAObjc.DXAMaskAutomatic.Type) -> MedalliaDXAObjc.DXAMaskAutomatic",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DXAMaskAutomatic",
-                    "printedName": "MedalliaDXAObjc.DXAMaskAutomatic",
-                    "usr": "c:@M@MedalliaDXAObjc@E@DXAMaskAutomatic"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MedalliaDXAObjc.DXAMaskAutomatic.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DXAMaskAutomatic",
-                        "printedName": "MedalliaDXAObjc.DXAMaskAutomatic",
-                        "usr": "c:@M@MedalliaDXAObjc@E@DXAMaskAutomatic"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@MedalliaDXAObjc@E@DXAMaskAutomatic@DXAMaskAutomaticUnmaskInputs",
-            "mangledName": "$s15MedalliaDXAObjc16DXAMaskAutomaticO12unmaskInputsyA2CmF",
-            "moduleName": "MedalliaDXAObjc",
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "fixedbinaryorder": 7
-          },
-          {
-            "kind": "Var",
-            "name": "unmaskWebViews",
-            "printedName": "unmaskWebViews",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MedalliaDXAObjc.DXAMaskAutomatic.Type) -> MedalliaDXAObjc.DXAMaskAutomatic",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DXAMaskAutomatic",
-                    "printedName": "MedalliaDXAObjc.DXAMaskAutomatic",
-                    "usr": "c:@M@MedalliaDXAObjc@E@DXAMaskAutomatic"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MedalliaDXAObjc.DXAMaskAutomatic.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DXAMaskAutomatic",
-                        "printedName": "MedalliaDXAObjc.DXAMaskAutomatic",
-                        "usr": "c:@M@MedalliaDXAObjc@E@DXAMaskAutomatic"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@MedalliaDXAObjc@E@DXAMaskAutomatic@DXAMaskAutomaticUnmaskWebViews",
-            "mangledName": "$s15MedalliaDXAObjc16DXAMaskAutomaticO14unmaskWebViewsyA2CmF",
-            "moduleName": "MedalliaDXAObjc",
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "fixedbinaryorder": 8
+            "fixedbinaryorder": 4
           },
           {
             "kind": "Constructor",
@@ -888,7 +720,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(account:property:consent:crashReporterEnabled:mobileDataEnable:manualScreenTracking:enhancedLogsEnabled:)",
+            "printedName": "init(account:property:consent:crashReporterEnabled:mobileDataEnable:manualScreenTracking:enhancedLogsEnabled:networkAnalyticsEnable:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -937,13 +769,19 @@
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@MedalliaDXAObjc@objc(cs)DXAConfiguration(im)initWithAccount:property:consent:crashReporterEnabled:mobileDataEnable:manualScreenTracking:enhancedLogsEnabled:",
-            "mangledName": "$s15MedalliaDXAObjc16DXAConfigurationC7account8property7consent20crashReporterEnabled16mobileDataEnable20manualScreenTracking012enhancedLogsI0ACSS_SSAA10DXAConsentOS4btcfc",
+            "usr": "c:@M@MedalliaDXAObjc@objc(cs)DXAConfiguration(im)initWithAccount:property:consent:crashReporterEnabled:mobileDataEnable:manualScreenTracking:enhancedLogsEnabled:networkAnalyticsEnable:",
+            "mangledName": "$s15MedalliaDXAObjc16DXAConfigurationC7account8property7consent20crashReporterEnabled16mobileDataEnable20manualScreenTracking012enhancedLogsI0016networkAnalyticsL0ACSS_SSAA10DXAConsentOS5btcfc",
             "moduleName": "MedalliaDXAObjc",
-            "objc_name": "initWithAccount:property:consent:crashReporterEnabled:mobileDataEnable:manualScreenTracking:enhancedLogsEnabled:",
+            "objc_name": "initWithAccount:property:consent:crashReporterEnabled:mobileDataEnable:manualScreenTracking:enhancedLogsEnabled:networkAnalyticsEnable:",
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -1275,7 +1113,7 @@
           {
             "kind": "Function",
             "name": "setMaskingForCurrentScreen",
-            "printedName": "setMaskingForCurrentScreen(mask:)",
+            "printedName": "setMaskingForCurrentScreen(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1284,17 +1122,24 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "DXAMaskAutomatic",
-                "printedName": "MedalliaDXAObjc.DXAMaskAutomatic",
-                "usr": "c:@M@MedalliaDXAObjc@E@DXAMaskAutomatic"
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@MedalliaDXAObjc@objc(cs)DXAObjc(cm)setMaskingForCurrentScreenWithMask:",
-            "mangledName": "$s15MedalliaDXAObjc0B0C26setMaskingForCurrentScreen4maskyAA16DXAMaskAutomaticO_tFZ",
+            "usr": "c:@M@MedalliaDXAObjc@objc(cs)DXAObjc(cm)setMaskingForCurrentScreen:",
+            "mangledName": "$s15MedalliaDXAObjc0B0C26setMaskingForCurrentScreenyySaySiGFZ",
             "moduleName": "MedalliaDXAObjc",
             "static": true,
-            "objc_name": "setMaskingForCurrentScreenWithMask:",
             "declAttributes": [
               "Final",
               "AccessControl",
@@ -1484,8 +1329,8 @@
           },
           {
             "kind": "Function",
-            "name": "setAutomaticMask",
-            "printedName": "setAutomaticMask(_:)",
+            "name": "enableAutoMasking",
+            "printedName": "enableAutoMasking(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1494,14 +1339,22 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "DXAMaskAutomatic",
-                "printedName": "MedalliaDXAObjc.DXAMaskAutomatic",
-                "usr": "c:@M@MedalliaDXAObjc@E@DXAMaskAutomatic"
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@MedalliaDXAObjc@objc(cs)DXAObjc(cm)setAutomaticMask:",
-            "mangledName": "$s15MedalliaDXAObjc0B0C16setAutomaticMaskyyAA07DXAMaskD0OFZ",
+            "usr": "c:@M@MedalliaDXAObjc@objc(cs)DXAObjc(cm)enableAutoMasking:",
+            "mangledName": "$s15MedalliaDXAObjc0B0C17enableAutoMaskingyySaySiGFZ",
             "moduleName": "MedalliaDXAObjc",
             "static": true,
             "declAttributes": [
@@ -1514,8 +1367,8 @@
           },
           {
             "kind": "Function",
-            "name": "mask",
-            "printedName": "mask(rect:)",
+            "name": "disableAutoMasking",
+            "printedName": "disableAutoMasking(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1524,17 +1377,24 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "CGRect",
-                "printedName": "CoreFoundation.CGRect",
-                "usr": "c:@S@CGRect"
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@MedalliaDXAObjc@objc(cs)DXAObjc(cm)maskWithRect:",
-            "mangledName": "$s15MedalliaDXAObjc0B0C4mask4rectySo6CGRectV_tFZ",
+            "usr": "c:@M@MedalliaDXAObjc@objc(cs)DXAObjc(cm)disableAutoMasking:",
+            "mangledName": "$s15MedalliaDXAObjc0B0C18disableAutoMaskingyySaySiGFZ",
             "moduleName": "MedalliaDXAObjc",
             "static": true,
-            "objc_name": "maskWithRect:",
             "declAttributes": [
               "Final",
               "AccessControl",
@@ -2216,6 +2076,36 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "captureURLParameters",
+            "printedName": "captureURLParameters(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MedalliaDXAObjc@objc(cs)DXAObjc(cm)captureURLParameters:",
+            "mangledName": "$s15MedalliaDXAObjc0B0C20captureURLParametersyySbFZ",
+            "moduleName": "MedalliaDXAObjc",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -2332,8 +2222,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "recordingAndTracking",
-            "printedName": "recordingAndTracking",
+            "name": "analyticsAndRecording",
+            "printedName": "analyticsAndRecording",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -2363,8 +2253,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@MedalliaDXAObjc@E@DXAConsent@DXAConsentRecordingAndTracking",
-            "mangledName": "$s15MedalliaDXAObjc10DXAConsentO20recordingAndTrackingyA2CmF",
+            "usr": "c:@M@MedalliaDXAObjc@E@DXAConsent@DXAConsentAnalyticsAndRecording",
+            "mangledName": "$s15MedalliaDXAObjc10DXAConsentO21analyticsAndRecordingyA2CmF",
             "moduleName": "MedalliaDXAObjc",
             "declAttributes": [
               "RawDocComment",
@@ -2374,8 +2264,8 @@
           },
           {
             "kind": "Var",
-            "name": "tracking",
-            "printedName": "tracking",
+            "name": "analytics",
+            "printedName": "analytics",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -2405,8 +2295,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@MedalliaDXAObjc@E@DXAConsent@DXAConsentTracking",
-            "mangledName": "$s15MedalliaDXAObjc10DXAConsentO8trackingyA2CmF",
+            "usr": "c:@M@MedalliaDXAObjc@E@DXAConsent@DXAConsentAnalytics",
+            "mangledName": "$s15MedalliaDXAObjc10DXAConsentO9analyticsyA2CmF",
             "moduleName": "MedalliaDXAObjc",
             "declAttributes": [
               "RawDocComment",
@@ -2416,8 +2306,8 @@
           },
           {
             "kind": "Var",
-            "name": "noConsent",
-            "printedName": "noConsent",
+            "name": "none",
+            "printedName": "none",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -2447,8 +2337,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@MedalliaDXAObjc@E@DXAConsent@DXAConsentNoConsent",
-            "mangledName": "$s15MedalliaDXAObjc10DXAConsentO9noConsentyA2CmF",
+            "usr": "c:@M@MedalliaDXAObjc@E@DXAConsent@DXAConsentNone",
+            "mangledName": "$s15MedalliaDXAObjc10DXAConsentO4noneyA2CmF",
             "moduleName": "MedalliaDXAObjc",
             "declAttributes": [
               "RawDocComment",
@@ -4026,168 +3916,112 @@
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
       "kind": "IntegerLiteral",
-      "offset": 1084,
+      "offset": 711,
       "length": 6,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
       "kind": "IntegerLiteral",
-      "offset": 1140,
+      "offset": 767,
       "length": 6,
       "value": "2"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
       "kind": "IntegerLiteral",
-      "offset": 1251,
+      "offset": 878,
       "length": 8,
       "value": "3"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
       "kind": "IntegerLiteral",
-      "offset": 1421,
-      "length": 5,
+      "offset": 973,
+      "length": 3,
       "value": "4"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
       "kind": "IntegerLiteral",
-      "offset": 1513,
-      "length": 3,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1555,
-      "length": 6,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1651,
-      "length": 12,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1754,
-      "length": 14,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1084,
+      "offset": 711,
       "length": 6,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
       "kind": "IntegerLiteral",
-      "offset": 1140,
+      "offset": 767,
       "length": 6,
       "value": "2"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
       "kind": "IntegerLiteral",
-      "offset": 1251,
+      "offset": 878,
       "length": 8,
       "value": "3"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
       "kind": "IntegerLiteral",
-      "offset": 1421,
-      "length": 5,
+      "offset": 973,
+      "length": 3,
       "value": "4"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
       "kind": "IntegerLiteral",
-      "offset": 1513,
-      "length": 3,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1555,
-      "length": 6,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1651,
-      "length": 12,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1754,
-      "length": 14,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2501,
+      "offset": 1535,
       "length": 4,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
       "kind": "IntegerLiteral",
-      "offset": 2540,
+      "offset": 1574,
       "length": 6,
       "value": "2"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
       "kind": "IntegerLiteral",
-      "offset": 2927,
+      "offset": 1961,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
       "kind": "IntegerLiteral",
-      "offset": 2971,
+      "offset": 2005,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
       "kind": "IntegerLiteral",
-      "offset": 3016,
+      "offset": 2050,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
       "kind": "IntegerLiteral",
-      "offset": 3065,
+      "offset": 2099,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
       "kind": "IntegerLiteral",
-      "offset": 2501,
+      "offset": 1535,
       "length": 4,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAMask.swift",
       "kind": "IntegerLiteral",
-      "offset": 2540,
+      "offset": 1574,
       "length": 6,
       "value": "2"
     },
@@ -4215,49 +4049,56 @@
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 407,
+      "offset": 305,
+      "length": 19,
+      "value": "\"dxa.medallia.logs\""
+    },
+    {
+      "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
       "length": 3,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 483,
+      "offset": 535,
       "length": 3,
       "value": "\"+\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 494,
+      "offset": 546,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 536,
+      "offset": 588,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 547,
+      "offset": 599,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 748,
+      "offset": 800,
       "length": 5,
       "value": "\"di-\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 767,
+      "offset": 819,
       "length": 3,
       "value": "\"-\""
     },
@@ -4418,36 +4259,36 @@
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/DXAObjc.swift",
       "kind": "BooleanLiteral",
-      "offset": 6847,
+      "offset": 7263,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAConsent.swift",
       "kind": "IntegerLiteral",
-      "offset": 708,
-      "length": 8,
+      "offset": 711,
+      "length": 9,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAConsent.swift",
       "kind": "IntegerLiteral",
-      "offset": 790,
-      "length": 9,
+      "offset": 795,
+      "length": 4,
       "value": "2"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAConsent.swift",
       "kind": "IntegerLiteral",
-      "offset": 708,
-      "length": 8,
+      "offset": 711,
+      "length": 9,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/Public\/Enums\/DXAConsent.swift",
       "kind": "IntegerLiteral",
-      "offset": 790,
-      "length": 9,
+      "offset": 795,
+      "length": 4,
       "value": "2"
     },
     {

@@ -260,7 +260,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreFoundation;
+@import Foundation;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -310,7 +310,7 @@ SWIFT_CLASS("_TtC15MedalliaDXAObjc16DXAConfiguration")
 ///
 /// returns:
 /// A new instance of the class configured with the provided parameters.
-- (nonnull instancetype)initWithAccount:(NSString * _Nonnull)account property:(NSString * _Nonnull)property consent:(enum DXAConsent)consent crashReporterEnabled:(BOOL)crashReporterEnabled mobileDataEnable:(BOOL)mobileDataEnable manualScreenTracking:(BOOL)manualScreenTracking enhancedLogsEnabled:(BOOL)enhancedLogsEnabled OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithAccount:(NSString * _Nonnull)account property:(NSString * _Nonnull)property consent:(enum DXAConsent)consent crashReporterEnabled:(BOOL)crashReporterEnabled mobileDataEnable:(BOOL)mobileDataEnable manualScreenTracking:(BOOL)manualScreenTracking enhancedLogsEnabled:(BOOL)enhancedLogsEnabled networkAnalyticsEnable:(BOOL)networkAnalyticsEnable OBJC_DESIGNATED_INITIALIZER;
 /// Creates a new instance of the class with the provided configuration parameters.
 /// \param account Client account.
 ///
@@ -338,22 +338,22 @@ SWIFT_CLASS("_TtC15MedalliaDXAObjc16DXAConfiguration")
 /// Enum for enabling or disable consents.
 /// <ul>
 ///   <li>
-///     <code>.recordingAndTracking</code>: Enables recording session replay and screen event tracking consents.
+///     <code>.analyticsAndRecording</code>: Enables recording session replay and screen event analytics consents.
 ///   </li>
 ///   <li>
-///     <code>.tracking</code>: Enable screen event tracking consent and disable recording session replay consents.
+///     <code>.analytics</code>: Enable screen event analytics consent and disable recording session replay consents.
 ///   </li>
 ///   <li>
-///     <code>.noConsent</code>: Disable recording session replay and tracking consents.
+///     <code>.none</code>: Disable recording session replay and analytics consents.
 ///   </li>
 /// </ul>
 typedef SWIFT_ENUM(NSInteger, DXAConsent, open) {
-/// Enables recording session replay and screen event tracking consents.
-  DXAConsentRecordingAndTracking = 0,
-/// Enable screen event tracking consent and disable recording session replay consents.
-  DXAConsentTracking = 1,
-/// Disable recording session replay and tracking consents.
-  DXAConsentNoConsent = 2,
+/// Enables recording session replay and screen event analytics consents.
+  DXAConsentAnalyticsAndRecording = 0,
+/// Enable screen event analytics consent and disable recording session replay consents.
+  DXAConsentAnalytics = 1,
+/// Disable recording session replay and analytics consents.
+  DXAConsentNone = 2,
 };
 
 typedef SWIFT_ENUM(NSInteger, DXAImageQuality, open) {
@@ -379,19 +379,7 @@ typedef SWIFT_ENUM(NSInteger, DXAImageQuality, open) {
 ///     <code>.webViews</code>: all WKWebView are masked whole view. (no elements inside it).
 ///   </li>
 ///   <li>
-///     <code>.forms</code>: the view containing the form components must be set to true the diFormTrack property and these components will be masked automatically.
-///   </li>
-///   <li>
-///     <code>.all</code>: all case masks the rest of the cases (.labels, .inputs and .images).
-///   </li>
-///   <li>
-///     <code>.noMask</code>: no masking anything.
-///   </li>
-///   <li>
-///     <code>.unmaskInputs</code>: The Inputs are masking by default, with this option you can unmask all.
-///   </li>
-///   <li>
-///     <code>.unmaskWebViews</code>: The WebView are masking by default, with this option you can unmask all.
+///     <code>.all</code>: all case masks the rest of the cases (.labels, .inputs, webViews and .images).
 ///   </li>
 /// </ul>
 typedef SWIFT_ENUM(NSInteger, DXAMaskAutomatic, open) {
@@ -403,17 +391,8 @@ typedef SWIFT_ENUM(NSInteger, DXAMaskAutomatic, open) {
   DXAMaskAutomaticImages = 2,
 /// All WKWebView are masked whole view. (no elements inside it), it’s masking by default.
   DXAMaskAutomaticWebViews = 3,
-/// The view containing the form components must be set to true the
-/// diFormTrack property and these components will be masked automatically.
-  DXAMaskAutomaticForms = 4,
 /// All case masks the rest of the cases (.labels, .inputs and .images).
-  DXAMaskAutomaticAll = 5,
-/// No masking anything.
-  DXAMaskAutomaticNoMask = 6,
-/// The Inputs are masking by default, with this option you can unmask all.
-  DXAMaskAutomaticUnmaskInputs = 7,
-/// The WebView are masking by default, with this option you can unmask all.
-  DXAMaskAutomaticUnmaskWebViews = 8,
+  DXAMaskAutomaticAll = 4,
 };
 
 /// Type of mask for a single UIView.
@@ -463,7 +442,7 @@ SWIFT_CLASS("_TtC15MedalliaDXAObjc7DXAObjc")
 /// It is important to call this method before the viewDidAppear execute.
 /// \param mask Enum for automatic masking components.  For more information you can refer to the <code>DXAMaskAutomatic</code> enum
 ///
-+ (void)setMaskingForCurrentScreenWithMask:(enum DXAMaskAutomatic)mask;
++ (void)setMaskingForCurrentScreen:(NSArray<NSNumber *> * _Nonnull)types;
 /// This method sends any goal defined by the user.
 /// <ul>
 ///   <li>
@@ -526,27 +505,28 @@ SWIFT_CLASS("_TtC15MedalliaDXAObjc7DXAObjc")
 ///   </li>
 /// </ul>
 + (void)sendWithDimension:(NSString * _Nonnull)dimension withNumber:(double)value;
-/// Set global masks for the entire app.
-/// For more information you can refer to the <code>DXAMaskAutomatic</code> enum to check what types of components you can mask.
+/// Enable global masks for the entire app.
+/// For more information you can refer to the <code>MaskAutomatic</code> enum to check what types of components you can mask.
 /// <ul>
 ///   <li>
 ///     Parameters:
 ///   </li>
 ///   <li>
-///     maskType: Enum for automatic masking components. For more information you can refer to the <code>MaskAutomatic</code> enum
+///     types: Array of enums for automatic masking components. For more information you can refer to the <code>DXAMaskAutomatic</code> enum
 ///   </li>
 /// </ul>
-+ (void)setAutomaticMask:(enum DXAMaskAutomatic)configuration;
-/// Method to mask a CGRect in current screen.
++ (void)enableAutoMasking:(NSArray<NSNumber *> * _Nonnull)types;
+/// Disable global masks for the entire app.
+/// For more information you can refer to the <code>MaskAutomatic</code> enum to check what types of components you can mask.
 /// <ul>
 ///   <li>
 ///     Parameters:
 ///   </li>
 ///   <li>
-///     rect: CGRect to mask.
+///     types: Array of enums for automatic masking components. For more information you can refer to the <code>DXAMaskAutomatic</code> enum
 ///   </li>
 /// </ul>
-+ (void)maskWithRect:(CGRect)area;
++ (void)disableAutoMasking:(NSArray<NSNumber *> * _Nonnull)types;
 /// Configure user consent in the SDK. For more information you can refer to the <code>Consent</code> enum
 /// <ul>
 ///   <li>
@@ -632,6 +612,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL mobileDataEnable;)
 /// \param enabled enable or disable session analytics and recording.
 ///
 + (void)setRetention:(BOOL)enabled;
+/// Enables or disables capturing URL parameters for the Network analytics feature.
+/// <ul>
+///   <li>
+///     Parameters:
+///   </li>
+///   <li>
+///     capture: If true, the SDK will automatically capture URL parameters when the app launches, otherwise it won’t.
+///   </li>
+/// </ul>
++ (void)captureURLParameters:(BOOL)capture;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -955,7 +945,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreFoundation;
+@import Foundation;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -1005,7 +995,7 @@ SWIFT_CLASS("_TtC15MedalliaDXAObjc16DXAConfiguration")
 ///
 /// returns:
 /// A new instance of the class configured with the provided parameters.
-- (nonnull instancetype)initWithAccount:(NSString * _Nonnull)account property:(NSString * _Nonnull)property consent:(enum DXAConsent)consent crashReporterEnabled:(BOOL)crashReporterEnabled mobileDataEnable:(BOOL)mobileDataEnable manualScreenTracking:(BOOL)manualScreenTracking enhancedLogsEnabled:(BOOL)enhancedLogsEnabled OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithAccount:(NSString * _Nonnull)account property:(NSString * _Nonnull)property consent:(enum DXAConsent)consent crashReporterEnabled:(BOOL)crashReporterEnabled mobileDataEnable:(BOOL)mobileDataEnable manualScreenTracking:(BOOL)manualScreenTracking enhancedLogsEnabled:(BOOL)enhancedLogsEnabled networkAnalyticsEnable:(BOOL)networkAnalyticsEnable OBJC_DESIGNATED_INITIALIZER;
 /// Creates a new instance of the class with the provided configuration parameters.
 /// \param account Client account.
 ///
@@ -1033,22 +1023,22 @@ SWIFT_CLASS("_TtC15MedalliaDXAObjc16DXAConfiguration")
 /// Enum for enabling or disable consents.
 /// <ul>
 ///   <li>
-///     <code>.recordingAndTracking</code>: Enables recording session replay and screen event tracking consents.
+///     <code>.analyticsAndRecording</code>: Enables recording session replay and screen event analytics consents.
 ///   </li>
 ///   <li>
-///     <code>.tracking</code>: Enable screen event tracking consent and disable recording session replay consents.
+///     <code>.analytics</code>: Enable screen event analytics consent and disable recording session replay consents.
 ///   </li>
 ///   <li>
-///     <code>.noConsent</code>: Disable recording session replay and tracking consents.
+///     <code>.none</code>: Disable recording session replay and analytics consents.
 ///   </li>
 /// </ul>
 typedef SWIFT_ENUM(NSInteger, DXAConsent, open) {
-/// Enables recording session replay and screen event tracking consents.
-  DXAConsentRecordingAndTracking = 0,
-/// Enable screen event tracking consent and disable recording session replay consents.
-  DXAConsentTracking = 1,
-/// Disable recording session replay and tracking consents.
-  DXAConsentNoConsent = 2,
+/// Enables recording session replay and screen event analytics consents.
+  DXAConsentAnalyticsAndRecording = 0,
+/// Enable screen event analytics consent and disable recording session replay consents.
+  DXAConsentAnalytics = 1,
+/// Disable recording session replay and analytics consents.
+  DXAConsentNone = 2,
 };
 
 typedef SWIFT_ENUM(NSInteger, DXAImageQuality, open) {
@@ -1074,19 +1064,7 @@ typedef SWIFT_ENUM(NSInteger, DXAImageQuality, open) {
 ///     <code>.webViews</code>: all WKWebView are masked whole view. (no elements inside it).
 ///   </li>
 ///   <li>
-///     <code>.forms</code>: the view containing the form components must be set to true the diFormTrack property and these components will be masked automatically.
-///   </li>
-///   <li>
-///     <code>.all</code>: all case masks the rest of the cases (.labels, .inputs and .images).
-///   </li>
-///   <li>
-///     <code>.noMask</code>: no masking anything.
-///   </li>
-///   <li>
-///     <code>.unmaskInputs</code>: The Inputs are masking by default, with this option you can unmask all.
-///   </li>
-///   <li>
-///     <code>.unmaskWebViews</code>: The WebView are masking by default, with this option you can unmask all.
+///     <code>.all</code>: all case masks the rest of the cases (.labels, .inputs, webViews and .images).
 ///   </li>
 /// </ul>
 typedef SWIFT_ENUM(NSInteger, DXAMaskAutomatic, open) {
@@ -1098,17 +1076,8 @@ typedef SWIFT_ENUM(NSInteger, DXAMaskAutomatic, open) {
   DXAMaskAutomaticImages = 2,
 /// All WKWebView are masked whole view. (no elements inside it), it’s masking by default.
   DXAMaskAutomaticWebViews = 3,
-/// The view containing the form components must be set to true the
-/// diFormTrack property and these components will be masked automatically.
-  DXAMaskAutomaticForms = 4,
 /// All case masks the rest of the cases (.labels, .inputs and .images).
-  DXAMaskAutomaticAll = 5,
-/// No masking anything.
-  DXAMaskAutomaticNoMask = 6,
-/// The Inputs are masking by default, with this option you can unmask all.
-  DXAMaskAutomaticUnmaskInputs = 7,
-/// The WebView are masking by default, with this option you can unmask all.
-  DXAMaskAutomaticUnmaskWebViews = 8,
+  DXAMaskAutomaticAll = 4,
 };
 
 /// Type of mask for a single UIView.
@@ -1158,7 +1127,7 @@ SWIFT_CLASS("_TtC15MedalliaDXAObjc7DXAObjc")
 /// It is important to call this method before the viewDidAppear execute.
 /// \param mask Enum for automatic masking components.  For more information you can refer to the <code>DXAMaskAutomatic</code> enum
 ///
-+ (void)setMaskingForCurrentScreenWithMask:(enum DXAMaskAutomatic)mask;
++ (void)setMaskingForCurrentScreen:(NSArray<NSNumber *> * _Nonnull)types;
 /// This method sends any goal defined by the user.
 /// <ul>
 ///   <li>
@@ -1221,27 +1190,28 @@ SWIFT_CLASS("_TtC15MedalliaDXAObjc7DXAObjc")
 ///   </li>
 /// </ul>
 + (void)sendWithDimension:(NSString * _Nonnull)dimension withNumber:(double)value;
-/// Set global masks for the entire app.
-/// For more information you can refer to the <code>DXAMaskAutomatic</code> enum to check what types of components you can mask.
+/// Enable global masks for the entire app.
+/// For more information you can refer to the <code>MaskAutomatic</code> enum to check what types of components you can mask.
 /// <ul>
 ///   <li>
 ///     Parameters:
 ///   </li>
 ///   <li>
-///     maskType: Enum for automatic masking components. For more information you can refer to the <code>MaskAutomatic</code> enum
+///     types: Array of enums for automatic masking components. For more information you can refer to the <code>DXAMaskAutomatic</code> enum
 ///   </li>
 /// </ul>
-+ (void)setAutomaticMask:(enum DXAMaskAutomatic)configuration;
-/// Method to mask a CGRect in current screen.
++ (void)enableAutoMasking:(NSArray<NSNumber *> * _Nonnull)types;
+/// Disable global masks for the entire app.
+/// For more information you can refer to the <code>MaskAutomatic</code> enum to check what types of components you can mask.
 /// <ul>
 ///   <li>
 ///     Parameters:
 ///   </li>
 ///   <li>
-///     rect: CGRect to mask.
+///     types: Array of enums for automatic masking components. For more information you can refer to the <code>DXAMaskAutomatic</code> enum
 ///   </li>
 /// </ul>
-+ (void)maskWithRect:(CGRect)area;
++ (void)disableAutoMasking:(NSArray<NSNumber *> * _Nonnull)types;
 /// Configure user consent in the SDK. For more information you can refer to the <code>Consent</code> enum
 /// <ul>
 ///   <li>
@@ -1327,6 +1297,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL mobileDataEnable;)
 /// \param enabled enable or disable session analytics and recording.
 ///
 + (void)setRetention:(BOOL)enabled;
+/// Enables or disables capturing URL parameters for the Network analytics feature.
+/// <ul>
+///   <li>
+///     Parameters:
+///   </li>
+///   <li>
+///     capture: If true, the SDK will automatically capture URL parameters when the app launches, otherwise it won’t.
+///   </li>
+/// </ul>
++ (void)captureURLParameters:(BOOL)capture;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

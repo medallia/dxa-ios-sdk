@@ -13,11 +13,7 @@ import _StringProcessing
   case inputs
   case images
   case webViews
-  case forms
   case all
-  case noMask
-  case unmaskInputs
-  case unmaskWebViews
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -59,7 +55,7 @@ import _StringProcessing
   }
 }
 @objc public class DXAConfiguration : ObjectiveC.NSObject {
-  @objc public init(account: Swift.String, property: Swift.String, consent: MedalliaDXAObjc.DXAConsent, crashReporterEnabled: Swift.Bool, mobileDataEnable: Swift.Bool, manualScreenTracking: Swift.Bool, enhancedLogsEnabled: Swift.Bool)
+  @objc public init(account: Swift.String, property: Swift.String, consent: MedalliaDXAObjc.DXAConsent, crashReporterEnabled: Swift.Bool, mobileDataEnable: Swift.Bool, manualScreenTracking: Swift.Bool, enhancedLogsEnabled: Swift.Bool, networkAnalyticsEnable: Swift.Bool)
   @objc public init(account: Swift.String, property: Swift.String, consent: MedalliaDXAObjc.DXAConsent)
   @objc public init(account: Swift.String, property: Swift.String)
   @objc deinit
@@ -69,14 +65,14 @@ import _StringProcessing
   @objc public static func startNewScreen(name: Swift.String)
   @objc public static func startNewScreen(name: Swift.String, disableRecordingOnThisScreen: Swift.Bool)
   @objc public static func stopScreen()
-  @objc public static func setMaskingForCurrentScreen(mask: MedalliaDXAObjc.DXAMaskAutomatic)
+  @objc public static func setMaskingForCurrentScreen(_ types: [Swift.Int])
   @objc public static func send(goal: Swift.String, with value: Swift.Float)
   @objc public static func send(goal: Swift.String)
   @objc public static func send(dimension: Swift.String, withString value: Swift.String)
   @objc public static func send(dimension: Swift.String, withBool value: Swift.Bool)
   @objc public static func send(dimension: Swift.String, withNumber value: Swift.Double)
-  @objc public static func setAutomaticMask(_ configuration: MedalliaDXAObjc.DXAMaskAutomatic)
-  @objc public static func mask(rect area: CoreFoundation.CGRect)
+  @objc public static func enableAutoMasking(_ types: [Swift.Int])
+  @objc public static func disableAutoMasking(_ types: [Swift.Int])
   @objc public static func setConsent(_ consent: MedalliaDXAObjc.DXAConsent)
   @objc public static func setImageQuality(_ quality: MedalliaDXAObjc.DXAImageQuality)
   @objc public static func setMaskingColor(_ color: UIKit.UIColor)
@@ -99,13 +95,14 @@ import _StringProcessing
     @objc set
   }
   @objc public static func setRetention(_ enabled: Swift.Bool)
+  @objc public static func captureURLParameters(_ capture: Swift.Bool)
   @objc override dynamic public init()
   @objc deinit
 }
 @objc public enum DXAConsent : Swift.Int {
-  case recordingAndTracking
-  case tracking
-  case noConsent
+  case analyticsAndRecording
+  case analytics
+  case none
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
