@@ -4526,6 +4526,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MedalliaDXA",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -8321,175 +8331,175 @@
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Models\/WeightedSampling.swift",
       "kind": "StringLiteral",
-      "offset": 209,
+      "offset": 211,
       "length": 10,
       "value": "\"weighted\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1384,
+      "offset": 1403,
       "length": 25,
       "value": "\".feature.ScreenDetector\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 1619,
+      "offset": 1638,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 1686,
+      "offset": 1705,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 3512,
+      "offset": 3531,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 3543,
+      "offset": 3562,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 3991,
+      "offset": 4010,
       "length": 54,
       "value": "\"Force New screen detected manually \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 4044,
+      "offset": 4063,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 4419,
+      "offset": 4438,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 4452,
+      "offset": 4471,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 4508,
+      "offset": 4527,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 6732,
+      "offset": 6752,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 6785,
+      "offset": 6805,
       "length": 55,
       "value": "\"New screen detected from Background \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 6839,
+      "offset": 6859,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 6889,
+      "offset": 6909,
       "length": 45,
       "value": "\"New screen tracking: \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 6933,
+      "offset": 6953,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 7291,
+      "offset": 7311,
       "length": 63,
       "value": "\"New screen detected and not previous screen \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 7353,
+      "offset": 7373,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 7403,
+      "offset": 7423,
       "length": 45,
       "value": "\"New screen tracking: \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 7447,
+      "offset": 7467,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 8059,
+      "offset": 8079,
       "length": 65,
       "value": "\"New screen detected different to previous one \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 8123,
+      "offset": 8143,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 8173,
+      "offset": 8193,
       "length": 45,
       "value": "\"New screen tracking: \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 8217,
+      "offset": 8237,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/ScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 8437,
+      "offset": 8457,
       "length": 46,
       "value": "\"WARNING: new screen detected but not tracked\""
     },
@@ -8811,322 +8821,315 @@
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "StringLiteral",
-      "offset": 1480,
+      "offset": 1486,
       "length": 38,
       "value": "\"Error parser, screenID: \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "StringLiteral",
-      "offset": 1517,
+      "offset": 1523,
       "length": 32,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 2854,
+      "offset": 2860,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 2882,
+      "offset": 2888,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "StringLiteral",
-      "offset": 4591,
+      "offset": 4626,
       "length": 42,
       "value": "\"Fail to parse JSON verification is false\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "StringLiteral",
-      "offset": 4768,
+      "offset": 4803,
       "length": 41,
       "value": "\"Fail to parse data with error: \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "StringLiteral",
-      "offset": 4808,
+      "offset": 4843,
       "length": 32,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "StringLiteral",
-      "offset": 5483,
+      "offset": 5391,
       "length": 26,
       "value": "\"Fail to parse session ID\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "StringLiteral",
-      "offset": 6052,
+      "offset": 5833,
       "length": 23,
       "value": "\"Fail to parse lead ID\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "StringLiteral",
-      "offset": 6975,
-      "length": 53,
-      "value": "\"Error parsing session \""
-    },
-    {
-      "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
-      "kind": "StringLiteral",
-      "offset": 7027,
-      "length": 32,
-      "value": "\"\""
+      "offset": 6795,
+      "length": 30,
+      "value": "\"Error parsing session is nil\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "Array",
-      "offset": 7705,
+      "offset": 7538,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "StringLiteral",
-      "offset": 9261,
+      "offset": 9094,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 9980,
+      "offset": 9813,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 10025,
+      "offset": 9858,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 10060,
+      "offset": 9893,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 10158,
+      "offset": 10006,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 10300,
+      "offset": 10148,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 10414,
+      "offset": 10262,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 10613,
+      "offset": 10461,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 11343,
+      "offset": 11191,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 11432,
+      "offset": 11280,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "StringLiteral",
-      "offset": 11505,
+      "offset": 11353,
       "length": 52,
       "value": "\"Fail to parse force applicationEnd is not possible\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "Dictionary",
-      "offset": 11604,
+      "offset": 11452,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadParser.swift",
       "kind": "StringLiteral",
-      "offset": 11804,
+      "offset": 11652,
       "length": 14,
       "value": "\"Error events\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMScrollHandle.swift",
       "kind": "Dictionary",
-      "offset": 423,
+      "offset": 442,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMScrollHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 539,
+      "offset": 558,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMScrollHandle.swift",
       "kind": "Array",
-      "offset": 697,
+      "offset": 735,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMScrollHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 855,
+      "offset": 893,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMScrollHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 2103,
+      "offset": 2141,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMScrollHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 2208,
+      "offset": 2246,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMScrollHandle.swift",
       "kind": "FloatLiteral",
-      "offset": 3370,
+      "offset": 3408,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMScrollHandle.swift",
       "kind": "FloatLiteral",
-      "offset": 3437,
+      "offset": 3475,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMScrollHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 3901,
+      "offset": 3939,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMScrollHandle.swift",
       "kind": "Array",
-      "offset": 3971,
+      "offset": 4009,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMScrollHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 4236,
+      "offset": 4274,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMScrollHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 4303,
+      "offset": 4341,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMScrollHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 4385,
+      "offset": 4423,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMScrollHandle.swift",
       "kind": "StringLiteral",
-      "offset": 4595,
+      "offset": 4633,
       "length": 36,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMScrollHandle.swift",
       "kind": "StringLiteral",
-      "offset": 4613,
+      "offset": 4651,
       "length": 1,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMScrollHandle.swift",
       "kind": "StringLiteral",
-      "offset": 4630,
+      "offset": 4668,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMScrollHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 4740,
+      "offset": 4778,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMScrollHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 4815,
+      "offset": 4853,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMScrollHandle.swift",
       "kind": "StringLiteral",
-      "offset": 4994,
+      "offset": 5032,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMScrollHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 5184,
+      "offset": 5222,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMScrollHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 5294,
+      "offset": 5332,
       "length": 1,
       "value": "0"
     },
@@ -9189,28 +9192,35 @@
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Network\/Core\/NetworkCore.swift",
       "kind": "StringLiteral",
-      "offset": 2429,
+      "offset": 2388,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Network\/Core\/NetworkCore.swift",
       "kind": "IntegerLiteral",
-      "offset": 2655,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Network\/Core\/NetworkCore.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2710,
+      "offset": 2458,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Network\/Core\/NetworkCore.swift",
       "kind": "IntegerLiteral",
-      "offset": 2769,
+      "offset": 2631,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Network\/Core\/NetworkCore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2686,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Network\/Core\/NetworkCore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2745,
       "length": 1,
       "value": "0"
     },
@@ -12157,28 +12167,28 @@
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/UserMasking.swift",
       "kind": "Array",
-      "offset": 230,
+      "offset": 249,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/UserMasking.swift",
       "kind": "Array",
-      "offset": 317,
+      "offset": 355,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/UserMasking.swift",
       "kind": "Array",
-      "offset": 881,
+      "offset": 919,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Commons\/UserMasking.swift",
       "kind": "Array",
-      "offset": 917,
+      "offset": 955,
       "length": 2,
       "value": "[]"
     },
@@ -13095,315 +13105,315 @@
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "Dictionary",
-      "offset": 224,
+      "offset": 243,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 490,
+      "offset": 528,
       "length": 13,
       "value": "\".read-write\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 652,
+      "offset": 690,
       "length": 21,
       "value": "\".core-configuration\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 4189,
+      "offset": 4227,
       "length": 36,
       "value": "\"MedalliaSDK is already initialized\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 5307,
+      "offset": 5345,
       "length": 25,
       "value": "\"MedalliaDXA initialized\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 5654,
+      "offset": 5692,
       "length": 34,
       "value": "\"Error initialize MedalliaDXA SDK\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "BooleanLiteral",
-      "offset": 9061,
+      "offset": 9099,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "BooleanLiteral",
-      "offset": 9124,
+      "offset": 9162,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 12206,
+      "offset": 12244,
       "length": 56,
       "value": "\"Error register features: \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 12261,
+      "offset": 12299,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "BooleanLiteral",
-      "offset": 12878,
+      "offset": 12916,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 12983,
+      "offset": 13021,
       "length": 42,
       "value": "\"This version of the SDK has been blocked\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "BooleanLiteral",
-      "offset": 13466,
+      "offset": 13504,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 13571,
+      "offset": 13609,
       "length": 42,
       "value": "\"This version of the SDK has been blocked\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 13984,
+      "offset": 14022,
       "length": 22,
       "value": "\"Medallia DXA Version\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "BooleanLiteral",
-      "offset": 14045,
+      "offset": 14083,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 14152,
+      "offset": 14190,
       "length": 42,
       "value": "\"This version of the SDK has been blocked\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 14543,
+      "offset": 14581,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "BooleanLiteral",
-      "offset": 14610,
+      "offset": 14648,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 14717,
+      "offset": 14755,
       "length": 42,
       "value": "\"This version of the app has been blocked\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 15090,
+      "offset": 15128,
       "length": 19,
       "value": "\"Save goal \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 15108,
+      "offset": 15146,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 15364,
+      "offset": 15402,
       "length": 36,
       "value": "\"Save Custom Dimension \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 15399,
+      "offset": 15437,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 15631,
+      "offset": 15669,
       "length": 35,
       "value": "\"Save HTTP Error: \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 15665,
+      "offset": 15703,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 15879,
+      "offset": 15917,
       "length": 29,
       "value": "\"Save App Error: \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 15907,
+      "offset": 15945,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "BooleanLiteral",
-      "offset": 16022,
+      "offset": 16060,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 16243,
+      "offset": 16281,
       "length": 42,
       "value": "\"Save the correct submission of the form\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 16360,
+      "offset": 16398,
       "length": 28,
       "value": "\"Save an error in the form\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 16610,
+      "offset": 16648,
       "length": 27,
       "value": "\"Set consent to \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 16636,
+      "offset": 16674,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "BooleanLiteral",
-      "offset": 16858,
+      "offset": 16896,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 16916,
+      "offset": 16954,
       "length": 96,
       "value": "\"Start screen manually is not allowed, set manualScreenTracking 'true' on the initialize method\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "BooleanLiteral",
-      "offset": 17331,
+      "offset": 17369,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 17389,
+      "offset": 17427,
       "length": 95,
       "value": "\"Stop screen manually is not allowed, set manualScreenTracking 'true' on the initialize method\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 18284,
+      "offset": 18322,
       "length": 29,
       "value": "\"Session link: \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 18312,
+      "offset": 18350,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 18752,
+      "offset": 18790,
       "length": 79,
       "value": "\"Get webview properties: da_sid=\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 18796,
+      "offset": 18834,
       "length": 1,
       "value": "\"&da_lid=\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 18813,
+      "offset": 18851,
       "length": 1,
       "value": "\"&da_from_native=1\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 18869,
+      "offset": 18907,
       "length": 55,
       "value": "\"da_sid=\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 18889,
+      "offset": 18927,
       "length": 1,
       "value": "\"&da_lid=\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Core.swift",
       "kind": "StringLiteral",
-      "offset": 18906,
+      "offset": 18944,
       "length": 1,
       "value": "\"&da_from_native=1\""
     },
@@ -14957,511 +14967,511 @@
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "Array",
-      "offset": 655,
+      "offset": 674,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 877,
+      "offset": 896,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "Dictionary",
-      "offset": 960,
+      "offset": 998,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "Dictionary",
-      "offset": 1049,
+      "offset": 1106,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "Array",
-      "offset": 1140,
+      "offset": 1216,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "Array",
-      "offset": 1229,
+      "offset": 1324,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 1638,
+      "offset": 1733,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 1794,
+      "offset": 1889,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "Array",
-      "offset": 2852,
+      "offset": 2947,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 3286,
+      "offset": 3381,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "StringLiteral",
-      "offset": 4702,
+      "offset": 4797,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "StringLiteral",
-      "offset": 4710,
+      "offset": 4805,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "StringLiteral",
-      "offset": 4729,
+      "offset": 4824,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "StringLiteral",
-      "offset": 6358,
+      "offset": 6453,
       "length": 47,
       "value": "\"form-for-\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "StringLiteral",
-      "offset": 6404,
+      "offset": 6499,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "StringLiteral",
-      "offset": 6486,
+      "offset": 6581,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 6553,
+      "offset": 6648,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 6665,
+      "offset": 6760,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 7025,
+      "offset": 7120,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 7068,
+      "offset": 7163,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 7110,
+      "offset": 7205,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 7145,
+      "offset": 7240,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 7182,
+      "offset": 7277,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 7353,
+      "offset": 7448,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 7396,
+      "offset": 7491,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 7438,
+      "offset": 7533,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 7473,
+      "offset": 7568,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 7510,
+      "offset": 7605,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 7774,
+      "offset": 7869,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 7813,
+      "offset": 7908,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 7851,
+      "offset": 7946,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 7882,
+      "offset": 7977,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 7915,
+      "offset": 8010,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 8142,
+      "offset": 8237,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 8181,
+      "offset": 8276,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 8219,
+      "offset": 8314,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 8250,
+      "offset": 8345,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 8283,
+      "offset": 8378,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 8525,
+      "offset": 8620,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 8564,
+      "offset": 8659,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 8602,
+      "offset": 8697,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 8633,
+      "offset": 8728,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 8666,
+      "offset": 8761,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 8886,
+      "offset": 8981,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 8925,
+      "offset": 9020,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 8963,
+      "offset": 9058,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 8994,
+      "offset": 9089,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 9027,
+      "offset": 9122,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 11790,
+      "offset": 11885,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 13025,
+      "offset": 13120,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 13103,
+      "offset": 13198,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 13344,
+      "offset": 13439,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 13427,
+      "offset": 13522,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 13507,
+      "offset": 13602,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "StringLiteral",
-      "offset": 13617,
+      "offset": 13712,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 13654,
+      "offset": 13749,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 13843,
+      "offset": 13938,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 14033,
+      "offset": 14128,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 14134,
+      "offset": 14229,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 14202,
+      "offset": 14297,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 14329,
+      "offset": 14424,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 14416,
+      "offset": 14511,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 14478,
+      "offset": 14573,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "StringLiteral",
-      "offset": 14911,
+      "offset": 15006,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 16907,
+      "offset": 17002,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 16979,
+      "offset": 17074,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 17103,
+      "offset": 17198,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 17251,
+      "offset": 17346,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 17345,
+      "offset": 17440,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "IntegerLiteral",
-      "offset": 17508,
+      "offset": 17603,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "StringLiteral",
-      "offset": 17690,
+      "offset": 17785,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "BooleanLiteral",
-      "offset": 17739,
+      "offset": 17834,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/RUM\/Core\/RUMFormHandle.swift",
       "kind": "StringLiteral",
-      "offset": 17778,
+      "offset": 17873,
       "length": 12,
       "value": "\"fieldError\""
     },
@@ -15734,21 +15744,21 @@
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Observer.swift",
       "kind": "StringLiteral",
-      "offset": 1944,
+      "offset": 1963,
       "length": 39,
       "value": "\".notify.queue.\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Observer.swift",
       "kind": "StringLiteral",
-      "offset": 1982,
+      "offset": 2001,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Observer.swift",
       "kind": "Array",
-      "offset": 2262,
+      "offset": 2281,
       "length": 2,
       "value": "[]"
     },
@@ -17876,49 +17886,49 @@
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/DataIntegrity\/Core\/DataIntegrityWorker.swift",
       "kind": "IntegerLiteral",
-      "offset": 680,
+      "offset": 645,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/DataIntegrity\/Core\/DataIntegrityWorker.swift",
       "kind": "StringLiteral",
-      "offset": 776,
+      "offset": 822,
       "length": 24,
       "value": "\".feature.DataIntegrity\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/DataIntegrity\/Core\/DataIntegrityWorker.swift",
       "kind": "StringLiteral",
-      "offset": 2657,
+      "offset": 2808,
       "length": 37,
       "value": "\"📬 Start worker to data integrity\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/DataIntegrity\/Core\/DataIntegrityWorker.swift",
       "kind": "StringLiteral",
-      "offset": 3030,
+      "offset": 3203,
       "length": 49,
       "value": "\"📹 Create videos for ids \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/DataIntegrity\/Core\/DataIntegrityWorker.swift",
       "kind": "StringLiteral",
-      "offset": 3078,
+      "offset": 3251,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/DataIntegrity\/Core\/DataIntegrityWorker.swift",
       "kind": "IntegerLiteral",
-      "offset": 3456,
+      "offset": 3629,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/DataIntegrity\/Core\/DataIntegrityWorker.swift",
       "kind": "StringLiteral",
-      "offset": 3773,
+      "offset": 3946,
       "length": 30,
       "value": "\"Not worker to data integrity\""
     },
@@ -20683,161 +20693,161 @@
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "IntegerLiteral",
-      "offset": 1074,
+      "offset": 1093,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "IntegerLiteral",
-      "offset": 2134,
+      "offset": 2153,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "StringLiteral",
-      "offset": 2468,
+      "offset": 2487,
       "length": 40,
       "value": "\"Not connection to start worker to send\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "StringLiteral",
-      "offset": 2781,
+      "offset": 2800,
       "length": 37,
       "value": "\"Cannot send data over cellular data\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "StringLiteral",
-      "offset": 2918,
+      "offset": 2937,
       "length": 27,
       "value": "\"📬 Start worker to send\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "StringLiteral",
-      "offset": 3297,
+      "offset": 3316,
       "length": 38,
       "value": "\"✉️ \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "StringLiteral",
-      "offset": 3326,
+      "offset": 3345,
       "length": 2,
       "value": "\" to send\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "StringLiteral",
-      "offset": 3421,
+      "offset": 3440,
       "length": 27,
       "value": "\"Screen to send with ids: \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "StringLiteral",
-      "offset": 3552,
+      "offset": 3571,
       "length": 14,
       "value": "\"- \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "StringLiteral",
-      "offset": 3565,
+      "offset": 3584,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "StringLiteral",
-      "offset": 3786,
+      "offset": 3805,
       "length": 72,
       "value": "\"Detect current screen with id: \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "StringLiteral",
-      "offset": 3826,
+      "offset": 3845,
       "length": 1,
       "value": "\", process to delete from upload\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "Array",
-      "offset": 4414,
+      "offset": 4433,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "StringLiteral",
-      "offset": 5213,
+      "offset": 5232,
       "length": 64,
       "value": "\"❌ Error sending screen: \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "StringLiteral",
-      "offset": 5273,
+      "offset": 5292,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "StringLiteral",
-      "offset": 5276,
+      "offset": 5295,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "StringLiteral",
-      "offset": 5446,
+      "offset": 5465,
       "length": 80,
       "value": "\"✅ - Finish send screen, proceed to delete directory with id \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "StringLiteral",
-      "offset": 5525,
+      "offset": 5544,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "IntegerLiteral",
-      "offset": 5588,
+      "offset": 5607,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "StringLiteral",
-      "offset": 5836,
+      "offset": 5855,
       "length": 26,
       "value": "\"📭 Not screens to send\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "StringLiteral",
-      "offset": 6368,
+      "offset": 6387,
       "length": 20,
       "value": "\"Not worker to send\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "StringLiteral",
-      "offset": 6454,
+      "offset": 6473,
       "length": 35,
       "value": "\"⏳ delay worker \""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/cfa_fpQE\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Uploader\/Core\/UploadWorker.swift",
       "kind": "StringLiteral",
-      "offset": 6480,
+      "offset": 6499,
       "length": 7,
       "value": "\" seconds\""
     }
