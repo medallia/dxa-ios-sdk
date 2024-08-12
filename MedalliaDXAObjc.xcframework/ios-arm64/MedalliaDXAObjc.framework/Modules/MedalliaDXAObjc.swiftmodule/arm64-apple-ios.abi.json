@@ -633,6 +633,13 @@
       },
       {
         "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "MedalliaDXAObjc"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -4028,79 +4035,100 @@
     {
       "filePath": "\/Users\/ec2-user\/builds\/jxGFawBd\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 166,
+      "offset": 186,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/jxGFawBd\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 204,
+      "offset": 224,
       "length": 14,
       "value": "\"dxa.medallia\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/jxGFawBd\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 252,
+      "offset": 272,
       "length": 20,
       "value": "\"dxa.medallia.cache\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/jxGFawBd\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 305,
+      "offset": 325,
       "length": 19,
       "value": "\"dxa.medallia.logs\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/jxGFawBd\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 459,
+      "offset": 376,
+      "length": 19,
+      "value": "\"dxa.medallia.zips\""
+    },
+    {
+      "filePath": "\/Users\/ec2-user\/builds\/jxGFawBd\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 530,
       "length": 3,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/jxGFawBd\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 535,
+      "offset": 606,
       "length": 3,
       "value": "\"+\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/jxGFawBd\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 546,
+      "offset": 617,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/jxGFawBd\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 588,
+      "offset": 659,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/jxGFawBd\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 599,
+      "offset": 670,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/jxGFawBd\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 800,
+      "offset": 871,
       "length": 5,
       "value": "\"di-\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/jxGFawBd\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
       "kind": "StringLiteral",
-      "offset": 819,
+      "offset": 890,
       "length": 3,
       "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/ec2-user\/builds\/jxGFawBd\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1060,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ec2-user\/builds\/jxGFawBd\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/String+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1292,
+      "length": 8,
+      "value": "\"%02hhx\""
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/jxGFawBd\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIColor+Ext.swift",
