@@ -3293,16 +3293,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MedalliaDXAObjc",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -6103,20 +6093,6 @@
       "offset": 247,
       "length": 5,
       "value": "4"
-    },
-    {
-      "filePath": "\/Users\/ec2-user\/builds\/jxGFawBd\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIApplication+Ext.swift",
-      "kind": "Array",
-      "offset": 683,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/ec2-user\/builds\/jxGFawBd\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIApplication+Ext.swift",
-      "kind": "Array",
-      "offset": 796,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/ec2-user\/builds\/jxGFawBd\/0\/di\/dxa-ios-sdk-andromeda\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/Int+Ext.swift",

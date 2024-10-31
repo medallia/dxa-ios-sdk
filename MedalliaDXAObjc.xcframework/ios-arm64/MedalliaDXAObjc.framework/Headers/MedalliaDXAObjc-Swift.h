@@ -657,7 +657,6 @@ typedef SWIFT_ENUM(NSInteger, DXAPlatformType, open) {
 
 
 
-
 @interface UIView (SWIFT_EXTENSION(MedalliaDXAObjc))
 /// Masks or unmasks a component. Check the <code>DXAMaskView</code> enum for more information.
 @property (nonatomic) enum DXAMaskView dxaMaskingObjc;

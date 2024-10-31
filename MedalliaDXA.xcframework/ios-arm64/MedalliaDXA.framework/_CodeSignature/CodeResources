@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bvfQGXTqSbMo55Yua/wSvmjTA+U=
+		yJr6mIP0BenZzu7lexJEz5XbDHU=
 		</data>
 		<key>Modules/MedalliaDXA.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Qyg7BYcxoeO/UwNvhqrVKBOpV0w=
+		tSBW3cUS7En8xO0fM/0R8e0VL8o=
 		</data>
 		<key>Modules/MedalliaDXA.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/MedalliaDXA.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		9pNRCWbcOLf+DqcoPJ/8LSRfYW0=
+		pMOY8izixLV2Mtlrdsdw4Hy73ZE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,7 +65,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4zQBOpFplCgKmrwbUFMkvnp63C/Mk7SzPqsW5lZXcSw=
+			9Ggi1/1de1kGWBukUaOqwKrmw+O6/lXHZe4BrzGDMMk=
 			</data>
 		</dict>
 		<key>Modules/MedalliaDXA.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -93,7 +93,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jNRGb+FZdYGNteBsvC9814hIR2w2gn3twxdW9191GAo=
+			hVs8UIABfdo+ht4PMvs8lpIAxvR9gauYqAGDp19wp/k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
