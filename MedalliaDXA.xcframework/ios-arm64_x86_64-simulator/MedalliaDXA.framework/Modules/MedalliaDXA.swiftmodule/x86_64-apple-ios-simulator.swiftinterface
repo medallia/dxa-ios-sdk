@@ -1,8 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MedalliaDXA
-// swift-module-flags-ignorable: -enable-bare-slash-regex
-import AVFoundation
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature AccessLevelOnImport -enable-bare-slash-regex -module-name MedalliaDXA
 import CommonCrypto
 import Foundation
 import MapKit
@@ -14,6 +12,7 @@ import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @available(iOS 13, *)
 extension SwiftUI.View {
   public func dxaMaskView() -> some SwiftUI.View

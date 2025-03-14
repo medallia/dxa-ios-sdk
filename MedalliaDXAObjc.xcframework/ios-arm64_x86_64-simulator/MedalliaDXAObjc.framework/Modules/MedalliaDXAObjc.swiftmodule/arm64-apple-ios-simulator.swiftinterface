@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MedalliaDXAObjc
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MedalliaDXAObjc
 import CommonCrypto
 import Foundation
 import MedalliaDXA
@@ -9,58 +8,7 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
-@objc public enum DXAMaskAutomatic : Swift.Int {
-  case labels
-  case inputs
-  case images
-  case webViews
-  case all
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc public enum DXAMaskView : Swift.Int {
-  case automatic
-  case mask
-  case unmask
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc extension UIKit.UIView {
-  @objc @_Concurrency.MainActor(unsafe) dynamic public var dxaMaskingObjc: MedalliaDXAObjc.DXAMaskView {
-    @objc get
-    @objc set
-  }
-  @objc @_Concurrency.MainActor(unsafe) dynamic public var dxaFormTrackObjc: Swift.Bool {
-    @objc get
-    @objc set
-  }
-}
-@objc extension UIKit.UIViewController {
-  @objc @_Concurrency.MainActor(unsafe) dynamic public var dxaScreenNameObjc: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @_Concurrency.MainActor(unsafe) dynamic public var dxaDisableRecordingOnThisScreenObjc: Swift.Bool {
-    @objc get
-    @objc set
-  }
-  @objc @_Concurrency.MainActor(unsafe) dynamic public var dxaDisableAnalyticsAndRecordingOnThisScreenObjc: Swift.Bool {
-    @objc get
-    @objc set
-  }
-}
-@objc public class DXAConfiguration : ObjectiveC.NSObject {
-  @objc public init(account: Swift.String, property: Swift.String, consent: MedalliaDXAObjc.DXAConsent, crashReporterEnabled: Swift.Bool, mobileDataEnable: Swift.Bool, manualScreenTracking: Swift.Bool, enhancedLogsEnabled: Swift.Bool, networkAnalyticsEnable: Swift.Bool)
-  @objc public init(account: Swift.String, property: Swift.String, consent: MedalliaDXAObjc.DXAConsent)
-  @objc public init(account: Swift.String, property: Swift.String)
-  @objc deinit
-}
+import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @objc public class DXAObjc : ObjectiveC.NSObject {
   @objc public static func initialize(_ configuration: MedalliaDXAObjc.DXAConfiguration)
   @objc public static func startNewScreen(name: Swift.String)
@@ -100,24 +48,52 @@ import _StringProcessing
   @objc override dynamic public init()
   @objc deinit
 }
-@objc public enum DXAConsent : Swift.Int {
-  case analyticsAndRecording
-  case analytics
-  case none
+@objc public enum DXAMaskAutomatic : Swift.Int {
+  case labels
+  case inputs
+  case images
+  case webViews
+  case all
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
 }
-@objc public class DXAPlatform : ObjectiveC.NSObject {
-  public init(type: MedalliaDXAObjc.DXAPlatformType, version: Swift.String, language: Swift.String)
+@objc public enum DXAMaskView : Swift.Int {
+  case automatic
+  case mask
+  case unmask
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc extension UIKit.UIViewController {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public var dxaScreenNameObjc: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) dynamic public var dxaDisableRecordingOnThisScreenObjc: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) dynamic public var dxaDisableAnalyticsAndRecordingOnThisScreenObjc: Swift.Bool {
+    @objc get
+    @objc set
+  }
+}
+@objc public class DXAConfiguration : ObjectiveC.NSObject {
+  @objc public init(account: Swift.String, property: Swift.String, consent: MedalliaDXAObjc.DXAConsent, crashReporterEnabled: Swift.Bool, mobileDataEnable: Swift.Bool, manualScreenTracking: Swift.Bool, enhancedLogsEnabled: Swift.Bool, networkAnalyticsEnable: Swift.Bool)
+  @objc public init(account: Swift.String, property: Swift.String, consent: MedalliaDXAObjc.DXAConsent)
+  @objc public init(account: Swift.String, property: Swift.String)
   @objc deinit
 }
-@objc public enum DXAPlatformType : Swift.Int {
-  case native
-  case flutter
-  case xamarin
+@objc public enum DXAConsent : Swift.Int {
+  case analyticsAndRecording
+  case analytics
+  case none
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -136,6 +112,30 @@ import _StringProcessing
     get
   }
 }
+@objc extension UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public var dxaMaskingObjc: MedalliaDXAObjc.DXAMaskView {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) dynamic public var dxaFormTrackObjc: Swift.Bool {
+    @objc get
+    @objc set
+  }
+}
+@objc public class DXAPlatform : ObjectiveC.NSObject {
+  public init(type: MedalliaDXAObjc.DXAPlatformType, version: Swift.String, language: Swift.String)
+  @objc deinit
+}
+@objc public enum DXAPlatformType : Swift.Int {
+  case native
+  case flutter
+  case xamarin
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 extension MedalliaDXAObjc.DXAMaskAutomatic : Swift.Equatable {}
 extension MedalliaDXAObjc.DXAMaskAutomatic : Swift.Hashable {}
 extension MedalliaDXAObjc.DXAMaskAutomatic : Swift.RawRepresentable {}
@@ -145,9 +145,9 @@ extension MedalliaDXAObjc.DXAMaskView : Swift.RawRepresentable {}
 extension MedalliaDXAObjc.DXAConsent : Swift.Equatable {}
 extension MedalliaDXAObjc.DXAConsent : Swift.Hashable {}
 extension MedalliaDXAObjc.DXAConsent : Swift.RawRepresentable {}
-extension MedalliaDXAObjc.DXAPlatformType : Swift.Equatable {}
-extension MedalliaDXAObjc.DXAPlatformType : Swift.Hashable {}
-extension MedalliaDXAObjc.DXAPlatformType : Swift.RawRepresentable {}
 extension MedalliaDXAObjc.DXAImageQuality : Swift.Equatable {}
 extension MedalliaDXAObjc.DXAImageQuality : Swift.Hashable {}
 extension MedalliaDXAObjc.DXAImageQuality : Swift.RawRepresentable {}
+extension MedalliaDXAObjc.DXAPlatformType : Swift.Equatable {}
+extension MedalliaDXAObjc.DXAPlatformType : Swift.Hashable {}
+extension MedalliaDXAObjc.DXAPlatformType : Swift.RawRepresentable {}
