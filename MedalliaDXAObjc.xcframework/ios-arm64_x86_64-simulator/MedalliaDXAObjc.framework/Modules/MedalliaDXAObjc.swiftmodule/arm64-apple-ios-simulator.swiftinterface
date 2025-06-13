@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MedalliaDXAObjc
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CommonCrypto
 import Foundation
 import MedalliaDXA
@@ -71,15 +72,15 @@ import _SwiftConcurrencyShims
   }
 }
 @objc extension UIKit.UIViewController {
-  @objc @_Concurrency.MainActor(unsafe) dynamic public var dxaScreenNameObjc: Swift.String? {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public var dxaScreenNameObjc: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic public var dxaDisableRecordingOnThisScreenObjc: Swift.Bool {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public var dxaDisableRecordingOnThisScreenObjc: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic public var dxaDisableAnalyticsAndRecordingOnThisScreenObjc: Swift.Bool {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public var dxaDisableAnalyticsAndRecordingOnThisScreenObjc: Swift.Bool {
     @objc get
     @objc set
   }
@@ -113,11 +114,11 @@ import _SwiftConcurrencyShims
   }
 }
 @objc extension UIKit.UIView {
-  @objc @_Concurrency.MainActor(unsafe) dynamic public var dxaMaskingObjc: MedalliaDXAObjc.DXAMaskView {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public var dxaMaskingObjc: MedalliaDXAObjc.DXAMaskView {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic public var dxaFormTrackObjc: Swift.Bool {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public var dxaFormTrackObjc: Swift.Bool {
     @objc get
     @objc set
   }
