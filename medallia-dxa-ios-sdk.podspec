@@ -11,7 +11,7 @@
 
 Pod::Spec.new do |s|
   s.name                = "medallia-dxa-ios-sdk"
-  s.version             = "3.6.1"
+  s.version             = "3.7.0"
   s.summary             = "The MedalliaDXA SDK for iOS."
   s.authors             = { "Medallia" => "cocoapods-dxa@medallia.com" }
   s.homepage            = "https://github.com/medallia/dxa-ios-sdk"
@@ -22,3 +22,4 @@ Pod::Spec.new do |s|
   s.exclude_files = "MedalliaDXA.xcframework/**/*.plist"
   s.ios.vendored_frameworks = 'MedalliaDXA.xcframework'
 end
+
