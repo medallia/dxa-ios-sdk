@@ -15,12 +15,11 @@ Pod::Spec.new do |s|
   s.summary             = "The MedalliaDXA SDK for iOS."
   s.authors             = { "Medallia" => "cocoapods-dxa@medallia.com" }
   s.homepage            = "https://github.com/medallia/dxa-ios-sdk"
-  s.description         = "The MedalliaDXA SDK for iOS. The SDK supports iOS 11.0 and above."
+  s.description         = "The MedalliaDXA SDK for iOS. The SDK supports iOS 13.0 and above."
   s.license             = { :type => "Commercial", :text => "Copyright © 2023 Medallia. Use subject to licensing terms." }
   s.source              = { :git => "https://github.com/medallia/dxa-ios-sdk.git", :tag => "#{s.version}" }
-  s.platform            = :ios, "11.0"
+  s.platform            = :ios, "13.0"
   
   s.exclude_files = "MedalliaDXAObjc.xcframework/**/*.plist"
   s.ios.vendored_frameworks = 'MedalliaDXAObjc.xcframework'
-  s.dependency 'medallia-dxa-ios-sdk'
 end
