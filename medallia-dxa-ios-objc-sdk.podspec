@@ -10,16 +10,25 @@
 #
 
 Pod::Spec.new do |s|
-  s.name                = "medallia-dxa-ios-objc-sdk"
-  s.version             = "3.7.0"
-  s.summary             = "The MedalliaDXA SDK for iOS."
-  s.authors             = { "Medallia" => "cocoapods-dxa@medallia.com" }
-  s.homepage            = "https://github.com/medallia/dxa-ios-sdk"
-  s.description         = "The MedalliaDXA SDK for iOS. The SDK supports iOS 13.0 and above."
-  s.license             = { :type => "Commercial", :text => "Copyright © 2023 Medallia. Use subject to licensing terms." }
-  s.source              = { :git => "https://github.com/medallia/dxa-ios-sdk.git", :tag => "#{s.version}" }
-  s.platform            = :ios, "13.0"
-  
+  s.name             = "medallia-dxa-ios-objc-sdk"
+  s.version          = "3.7.1"
+  s.summary          = "Medallia DXA iOS SDK (Objective-C Wrapper)"
+  s.description      = "Objective-C wrapper for Medallia DXA iOS SDK. Supports iOS 13.0 and above."
+  s.homepage         = "https://github.com/medallia/dxa-ios-sdk"
+
+  s.license          = { 
+    :type => "Commercial",
+    :text => "Use subject to licensing terms."
+  }
+
+  s.authors          = { "Medallia" => "cocoapods-dxa@medallia.com" }
+
+  s.source           = {
+    :http => "https://repository.medallia.com/artifactory/public-cocoapods/com/medallia/mobile/sdk/dxa-objc/3.7.0/medallia-dxa-ios-objc-sdk-v3.7.1.tar.gz"
+  }
+
+  s.platform         = :ios, "13.0"
+  s.ios.vendored_frameworks = "MedalliaDXAObjc.xcframework"
   s.exclude_files = "MedalliaDXAObjc.xcframework/**/*.plist"
-  s.ios.vendored_frameworks = 'MedalliaDXAObjc.xcframework'
 end
+

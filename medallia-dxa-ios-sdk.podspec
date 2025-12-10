@@ -1,8 +1,8 @@
-#  
+#
 #  Copyright © 2023 Medallia. Use subject to licensing terms.
 #
 #
-# Be sure to run `pod lib lint medallia-dxa-ios-sdk.podspec' to ensure this is a
+# Be sure to run `pod lib lint medallia-dxa-ios-objc-sdk.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -10,17 +10,28 @@
 #
 
 Pod::Spec.new do |s|
-  s.name                = "medallia-dxa-ios-sdk"
-  s.version             = "3.7.0"
-  s.summary             = "The MedalliaDXA SDK for iOS."
-  s.authors             = { "Medallia" => "cocoapods-dxa@medallia.com" }
-  s.homepage            = "https://github.com/medallia/dxa-ios-sdk"
-  s.description         = "The MedalliaDXA SDK for iOS. The SDK supports iOS 13.0 and above."
-  s.license             = { :type => "Commercial", :text => "Copyright © 2023 Medallia. Use subject to licensing terms." }
-  s.source              = { :git => "https://github.com/medallia/dxa-ios-sdk.git", :tag => "#{s.version}" }
-  s.platform            = :ios, "13.0"
-  s.exclude_files = "MedalliaDXA.xcframework/**/*.plist"
-  s.ios.vendored_frameworks = 'MedalliaDXA.xcframework'
-  s.dependency 'medallia-mobile-bridge-ios-sdk', '~> 1.0.4'
+  s.name             = "medallia-dxa-ios-sdk"
+  s.version          = "3.7.1"
+  s.summary          = "Medallia DXA iOS SDK"
+  s.description      = "Medallia DXA SDK for iOS. Supports iOS 13.0 and above."
+  s.homepage         = "https://github.com/medallia/dxa-ios-sdk"
+
+  s.license          = { 
+    :type => "Commercial",
+    :text => "Use subject to licensing terms."
+  }
+
+  s.authors          = { "Medallia" => "cocoapods-dxa@medallia.com" }
+
+  s.source           = {
+    :http => "https://repository.medallia.com/artifactory/public-cocoapods/com/medallia/mobile/sdk/dxa/3.7.0/medallia-dxa-ios-sdk-v3.7.1.tar.gz"
+  }
+
+  s.platform         = :ios, "13.0"
+
+  # Precompiled framework
+  s.ios.vendored_frameworks = "MedalliaDXA.xcframework"
+
+  s.swift_version = "5.0"
 end
 
