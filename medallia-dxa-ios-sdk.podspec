@@ -11,7 +11,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "medallia-dxa-ios-sdk"
-  s.version          = "3.7.1"
+  s.version          = "3.7.0"
   s.summary          = "Medallia DXA iOS SDK"
   s.description      = "Medallia DXA SDK for iOS. Supports iOS 13.0 and above."
   s.homepage         = "https://github.com/medallia/dxa-ios-sdk"
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.authors          = { "Medallia" => "cocoapods-dxa@medallia.com" }
 
   s.source           = {
-    :http => "https://repository.medallia.com/artifactory/public-cocoapods/com/medallia/mobile/sdk/dxa/3.7.0/medallia-dxa-ios-sdk-v3.7.1.tar.gz"
+    :http => "https://repository.medallia.com/artifactory/public-cocoapods/com/medallia/mobile/sdk/dxa/{s.version}/medallia-dxa-ios-sdk-v{s.version}.tar.gz"
   }
 
   s.platform         = :ios, "13.0"
