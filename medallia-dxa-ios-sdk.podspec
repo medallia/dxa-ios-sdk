@@ -30,5 +30,6 @@ Pod::Spec.new do |s|
   s.platform         = :ios, "13.0"
   s.ios.vendored_frameworks = "MedalliaDXA.xcframework"
   s.swift_version = "5.0"
+  s.dependency 'medallia-mobile-bridge-ios-sdk', '~> 1.0.4'
 end
 
