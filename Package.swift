@@ -45,7 +45,7 @@ let package = Package(
                     package: "MedalliaBridgeSDK"
                 )
             ],
-            path: "MedalliaDXASDKWrapper",
+            path: "MedalliaDXASDKWrapper"
         )
         
     ]
