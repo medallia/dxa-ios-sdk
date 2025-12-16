@@ -22,14 +22,14 @@ Pod::Spec.new do |s|
   }
 
   s.authors          = { "Medallia" => "cocoapods-dxa@medallia.com" }
-
-  s.source           = {
-    :http => "https://repository.medallia.com/artifactory/public-cocoapods/com/medallia/mobile/sdk/dxa/{s.version}/medallia-dxa-ios-sdk-v{s.version}.tar.gz"
+  s.source           = { 
+    :http => "https://repository.medallia.com/public-cocoapods/com/medallia/mobile/sdk/dxa/{s.version}/medallia-dxa-ios-sdk-v{s.version}.tar.gz" 
   }
 
   s.platform         = :ios, "13.0"
   s.ios.vendored_frameworks = "MedalliaDXA.xcframework"
   s.swift_version = "5.0"
-  s.dependency 'medallia-mobile-bridge-ios-sdk', '~> 1.0.4'
+
+  s.dependency 'medallia-mobile-bridge-ios-sdk', '~> 1.0'
 end
 

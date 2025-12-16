@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.authors          = { "Medallia" => "cocoapods-dxa@medallia.com" }
 
   s.source           = {
-    :http => "https://repository.medallia.com/artifactory/public-cocoapods/com/medallia/mobile/sdk/dxa-objc/{s.version}/medallia-dxa-ios-objc-sdk-v{s.version}.tar.gz"
+    :http => "https://repository.medallia.com/public-cocoapods/com/medallia/mobile/sdk/dxa-objc/{s.version}/medallia-dxa-ios-objc-sdk-v{s.version}.tar.gz"
   }
 
   s.platform         = :ios, "13.0"
