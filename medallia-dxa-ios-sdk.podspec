@@ -11,14 +11,14 @@
 
 Pod::Spec.new do |s|
   s.name             = "medallia-dxa-ios-sdk"
-  s.version          = "3.7.0"
+  s.version          = "3.8.0"
   s.summary          = "Medallia DXA iOS SDK"
   s.description      = "Medallia DXA SDK for iOS. Supports iOS 13.0 and above."
   s.homepage         = "https://github.com/medallia/dxa-ios-sdk"
 
   s.license          = { 
     :type => "Commercial",
-    :text => "Use subject to licensing terms."
+    :text => "Copyright © 2023 Medallia. Use subject to licensing terms."
   }
 
   s.authors          = { "Medallia" => "cocoapods-dxa@medallia.com" }
@@ -28,10 +28,7 @@ Pod::Spec.new do |s|
   }
 
   s.platform         = :ios, "13.0"
-
-  # Precompiled framework
   s.ios.vendored_frameworks = "MedalliaDXA.xcframework"
-
   s.swift_version = "5.0"
 end
 
