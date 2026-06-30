@@ -7,5 +7,4 @@ framework module MedalliaDXA {
 
 module MedalliaDXA.Swift {
   header "MedalliaDXA-Swift.h"
-  requires objc
 }

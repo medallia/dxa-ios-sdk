@@ -1,4 +1,3 @@
 framework module MedalliaDXAObjc {
   header "MedalliaDXAObjc-Swift.h"
-  requires objc
 }

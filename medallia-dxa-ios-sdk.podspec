@@ -11,9 +11,9 @@
 
 Pod::Spec.new do |s|
   s.name             = "medallia-dxa-ios-sdk"
-  s.version          = "3.8.0"
+  s.version          = "4.0.0"
   s.summary          = "Medallia DXA iOS SDK"
-  s.description      = "Medallia DXA SDK for iOS. Supports iOS 13.0 and above."
+  s.description      = "Medallia DXA SDK for iOS. Supports iOS 15.0 and above."
   s.homepage         = "https://github.com/medallia/dxa-ios-sdk"
 
   s.license          = { 
@@ -23,13 +23,12 @@ Pod::Spec.new do |s|
 
   s.authors          = { "Medallia" => "cocoapods-dxa@medallia.com" }
   s.source           = { 
-    :http => "https://repository.medallia.com/public-cocoapods/com/medallia/mobile/sdk/dxa/{s.version}/medallia-dxa-ios-sdk-v{s.version}.tar.gz" 
+    :http => "https://repository.medallia.com/public-cocoapods/com/medallia/mobile/sdk/dxa/#{s.version}/medallia-dxa-ios-sdk-v#{s.version}.tar.gz" 
   }
 
-  s.platform         = :ios, "13.0"
+  s.platform         = :ios, "15.0"
   s.ios.vendored_frameworks = "MedalliaDXA.xcframework"
   s.swift_version = "5.0"
 
-  s.dependency 'medallia-mobile-bridge-ios-sdk', '~> 1.0'
+  s.dependency 'medallia-mobile-bridge-ios-sdk', '~> 1.3.1'
 end
-
