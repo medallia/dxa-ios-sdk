@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MedalliaDXA-Swift.h</key>
 		<data>
-		yYBgQ8wHL3B99ELBOvH76bzNV+0=
+		uDG3YD42vXS7Vtm3hViN7XyZY1E=
 		</data>
 		<key>Headers/MedalliaDXA.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		TjSAvdCR7soJi16KbCtGzhTBa1s=
+		rWFKoKYk5iKhTSZ2i+ORXrdGXgU=
 		</data>
 		<key>Modules/MedalliaDXA.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/MedalliaDXA.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		563rNsiSySEcyjvF/QRUuk+TcrU=
+		RT4KWEkhqNvNgPU3EjHgXJ7NWlc=
 		</data>
 		<key>Modules/MedalliaDXA.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		PJqMkFTuLEZu9Sgv7ETh+Q3Xts0=
+		A60/cPEvWqwcjVfXz736ER3h1EQ=
 		</data>
 		<key>Modules/MedalliaDXA.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		563rNsiSySEcyjvF/QRUuk+TcrU=
+		RT4KWEkhqNvNgPU3EjHgXJ7NWlc=
 		</data>
 		<key>Modules/MedalliaDXA.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bthjnK5d8WuEUuPH4s5V84sUfHU=
+		p9SLHSOZVCwkKpIQLNy8lBk1cTY=
 		</data>
 		<key>Modules/MedalliaDXA.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/MedalliaDXA.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		9fGy/u6qu+fFmkh2KLbyGnkWyt8=
+		tScOcl7FbG/+/X7ClDjE8G49p04=
 		</data>
 		<key>Modules/MedalliaDXA.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		A76yRgRQjmhH3ZlkEj41XPO06KY=
+		LZ1/y094vaI8Dv3ARhIAHy4yR64=
 		</data>
 		<key>Modules/MedalliaDXA.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9fGy/u6qu+fFmkh2KLbyGnkWyt8=
+		tScOcl7FbG/+/X7ClDjE8G49p04=
 		</data>
 		<key>Modules/MedalliaDXA.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0Mq7Wk6/M7N5IK8VaE+/FFSTOTE=
+		4YiiwZACJSBRtLXON4caud41R/c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pbFXrn8t6bJNJUc4nNMJ9W6Kgk+9Y5Cc5BvYdT8rtLk=
+			YkyAH9XW4WnnzMYzva7gdPK2smMR7sc8wdSr10MhEhA=
 			</data>
 		</dict>
 		<key>Headers/MedalliaDXA.h</key>
@@ -92,28 +92,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hNuwmCWrEnUrNJsXT9wmPFTh2/4cZEH/Q2w6jK495y8=
+			CT6TdoiyfFjheF3Kxq8v1Z3nfMLP0+wG8SHsMw2wRfU=
 			</data>
 		</dict>
 		<key>Modules/MedalliaDXA.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6geg9fIGmswcjDRtggXp4tZlREni+roXO5TRdwQTKek=
+			ep/lCiTVGasCZktllJkba6UUGacedLmh9eejTWxLyG0=
 			</data>
 		</dict>
 		<key>Modules/MedalliaDXA.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hNuwmCWrEnUrNJsXT9wmPFTh2/4cZEH/Q2w6jK495y8=
+			CT6TdoiyfFjheF3Kxq8v1Z3nfMLP0+wG8SHsMw2wRfU=
 			</data>
 		</dict>
 		<key>Modules/MedalliaDXA.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EmLgAdOb5HLvSEXQUnUGQ76Da0TmUVvFLqvB+gHPwRo=
+			HPLfd0uUXJ/oJQ1Gq+CfQGLkyYLTXUn4hioyT7fedHM=
 			</data>
 		</dict>
 		<key>Modules/MedalliaDXA.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -127,28 +127,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WBXzpbLUEJIfwRZy+Sv3MOBxR6krUp6V9FPrQxqHONs=
+			hbH5FGl7ohQ5w/HlvCwGcT23879AmPfRCvCx4mUcCz4=
 			</data>
 		</dict>
 		<key>Modules/MedalliaDXA.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O11jBUAdUwj2r9Sb+R0vytWDbHMmPgVBk1Obx3wXOoM=
+			4NSxOUpkm4oeiY1LP1pBlvH/QcDI4UY1IhobjFHygM0=
 			</data>
 		</dict>
 		<key>Modules/MedalliaDXA.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WBXzpbLUEJIfwRZy+Sv3MOBxR6krUp6V9FPrQxqHONs=
+			hbH5FGl7ohQ5w/HlvCwGcT23879AmPfRCvCx4mUcCz4=
 			</data>
 		</dict>
 		<key>Modules/MedalliaDXA.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YY5CWtFguj96rqi5cafpKZkSJDvSuY/0XTMpD5PdISM=
+			W2PMGt9pHRiVEjGWlr5RkOKcyVqdmuYtxeOP8XyLUTg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
