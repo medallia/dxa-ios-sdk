@@ -1,52 +1,22 @@
-// swift-tools-version:5.5
-// The swift-tools-version declares the minimum version of Swift required to build this package.
-//
-//  Copyright © 2023 Medallia. Use subject to licensing terms.
-
+// swift-tools-version:6.0
 import PackageDescription
 
 let package = Package(
-    name: "medallia-dxa-ios-sdk",
+    name: "dxa-ios-sdk",
     platforms: [
         .iOS(.v15)
     ],
     products: [
-        .library(
-            name: "medallia-dxa-ios-sdk",
-            targets: ["MedalliaDXASDKWrapper"]),
-        .library(
-            name: "medallia-dxa-ios-objc-sdk",
-            targets: ["MedalliaDXAObjc", "MedalliaDXASDKWrapper"]),
+        .library(name: "dxa-ios-sdk", targets: ["MedalliaDXASDKWrapper"])
     ],
     dependencies: [
-        .package(
-            name: "MedalliaBridgeSDK",
-            url: "https://github.com/medallia/mobile-ios-bridge-sdk.git",
-            .upToNextMinor(from: "1.3.1")
-        )
+        .package(name: "MedalliaBridgeSDK", url: "https://github.com/medallia/mobile-ios-bridge-sdk.git", .upToNextMajor(from: "1.3.1"))
     ],
     targets: [
-        .binaryTarget(
-            name: "medallia-dxa-ios-sdk",
-            path: "MedalliaDXA.xcframework"
-        ),
-        .binaryTarget(
-            name: "MedalliaDXAObjc",
-            path: "MedalliaDXAObjc.xcframework"
-        ),
-        .target(
-            name: "MedalliaDXASDKWrapper",
-            dependencies: [
-                .target(
-                    name: "medallia-dxa-ios-sdk"
-                ),
-                .product(
-                    name: "medallia-mobile-bridge-ios-sdk",
-                    package: "MedalliaBridgeSDK"
-                )
-            ],
-            path: "MedalliaDXASDKWrapper"
-        )
-        
+        .binaryTarget(name: "MedalliaDXA", path: "MedalliaDXA.xcframework"),
+        .target(name: "MedalliaDXASDKWrapper", dependencies: [
+            .target(name: "MedalliaDXA"),
+            .product(name: "medallia-mobile-bridge-ios-sdk", package: "MedalliaBridgeSDK")
+        ], path: "Sources/MedalliaDXASDKWrapper")
     ]
 )
