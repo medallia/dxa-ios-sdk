@@ -2,21 +2,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "dxa-ios-flutter-sdk",
+    name: "dxa-ios-react-native-sdk",
     platforms: [
         .iOS(.v15)
     ],
     products: [
-        .library(name: "dxa-ios-flutter-sdk", targets: ["MedalliaDXAFlutterSDKWrapper"])
+        .library(name: "dxa-ios-react-native-sdk", targets: ["MedalliaDXAReactNativeSDKWrapper"])
     ],
     dependencies: [
         .package(name: "MedalliaBridgeSDK", url: "https://github.com/medallia/mobile-ios-bridge-sdk.git", .upToNextMajor(from: "1.3.1"))
     ],
     targets: [
-        .binaryTarget(name: "MedalliaDXAFlutter", path: "MedalliaDXAFlutter.xcframework"),
-        .target(name: "MedalliaDXAFlutterSDKWrapper", dependencies: [
-            .target(name: "MedalliaDXAFlutter"),
+        .binaryTarget(name: "MedalliaDXAReactNative", path: "MedalliaDXAReactNative.xcframework"),
+        .target(name: "MedalliaDXAReactNativeSDKWrapper", dependencies: [
+            .target(name: "MedalliaDXAReactNative"),
             .product(name: "medallia-mobile-bridge-ios-sdk", package: "MedalliaBridgeSDK")
-        ], path: "Sources/MedalliaDXAFlutterSDKWrapper")
+        ], path: "Sources/MedalliaDXAReactNativeSDKWrapper")
     ]
 )
