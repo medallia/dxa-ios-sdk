@@ -11,7 +11,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "medallia-dxa-ios-objc-sdk"
-  s.version          = "4.0.1"
+  s.version          = "4.0.2"
   s.summary          = "Medallia DXA iOS SDK (Objective-C Wrapper)"
   s.description      = "Objective-C wrapper for Medallia DXA iOS SDK. Supports iOS 15.0 and above."
   s.homepage         = "https://github.com/medallia/dxa-ios-sdk"

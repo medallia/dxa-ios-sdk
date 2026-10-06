@@ -5281,7 +5281,6 @@
           "ObjC",
           "SynthesizedProtocol",
           "NonSendable",
-          "Sendable",
           "Dynamic"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -5385,6 +5384,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "CVAttachmentValueRepresentable",
+            "printedName": "CVAttachmentValueRepresentable",
+            "usr": "s:9CoreVideo30CVAttachmentValueRepresentableP",
+            "mangledName": "$s9CoreVideo30CVAttachmentValueRepresentableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "BitwiseCopyable",
             "printedName": "BitwiseCopyable",
             "usr": "s:s15BitwiseCopyableP",
@@ -5396,6 +5402,13 @@
             "printedName": "CVarArg",
             "usr": "s:s7CVarArgP",
             "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ConvertibleToBytes",
+            "printedName": "ConvertibleToBytes",
+            "usr": "s:s18ConvertibleToBytesP",
+            "mangledName": "$ss18ConvertibleToBytesP"
           },
           {
             "kind": "Conformance",
@@ -5549,6 +5562,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "CVAttachmentValueRepresentable",
+            "printedName": "CVAttachmentValueRepresentable",
+            "usr": "s:9CoreVideo30CVAttachmentValueRepresentableP",
+            "mangledName": "$s9CoreVideo30CVAttachmentValueRepresentableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -5631,6 +5651,20 @@
             "printedName": "Comparable",
             "usr": "s:SL",
             "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ConvertibleFromBytes",
+            "printedName": "ConvertibleFromBytes",
+            "usr": "s:s20ConvertibleFromBytesP",
+            "mangledName": "$ss20ConvertibleFromBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ConvertibleToBytes",
+            "printedName": "ConvertibleToBytes",
+            "usr": "s:s18ConvertibleToBytesP",
+            "mangledName": "$ss18ConvertibleToBytesP"
           },
           {
             "kind": "Conformance",
@@ -6099,6 +6133,13 @@
             ],
             "usr": "s:16CoreTransferable0B0P",
             "mangledName": "$s16CoreTransferable0B0P"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVAttachmentValueRepresentable",
+            "printedName": "CVAttachmentValueRepresentable",
+            "usr": "s:9CoreVideo30CVAttachmentValueRepresentableP",
+            "mangledName": "$s9CoreVideo30CVAttachmentValueRepresentableP"
           },
           {
             "kind": "Conformance",
@@ -7621,28 +7662,28 @@
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/SVR\/Utils\/UIKIt\/Lo-Fi\/UIView+CALayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 3055,
+      "offset": 5274,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/SVR\/Utils\/UIKIt\/Lo-Fi\/UIView+CALayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 6244,
+      "offset": 11680,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/SVR\/Utils\/UIKIt\/Lo-Fi\/UIView+CALayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 7348,
+      "offset": 12810,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/SVR\/Utils\/UIKIt\/Lo-Fi\/UIView+CALayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 8447,
+      "offset": 14494,
       "length": 5,
       "value": "false"
     },
@@ -8342,7 +8383,7 @@
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/SVR\/Core\/ScreenRecording\/ScreenRecordingMode\/LO-FI\/ScreenRecordingLOFIMode.swift",
       "kind": "BooleanLiteral",
-      "offset": 3873,
+      "offset": 3998,
       "length": 4,
       "value": "true"
     },
@@ -8828,6 +8869,13 @@
       "offset": 355,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/ScreenSize.swift",
+      "kind": "IntegerLiteral",
+      "offset": 681,
+      "length": 4,
+      "value": "1200"
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/RUM\/Models\/Idle.swift",
@@ -10407,21 +10455,21 @@
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/SVR\/Utils\/UIKIt\/Lo-Fi\/CALayer+Masking.swift",
       "kind": "BooleanLiteral",
-      "offset": 8805,
+      "offset": 9105,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/SVR\/Utils\/UIKIt\/Lo-Fi\/CALayer+Masking.swift",
       "kind": "BooleanLiteral",
-      "offset": 8866,
+      "offset": 9166,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/SVR\/Utils\/UIKIt\/Lo-Fi\/CALayer+Masking.swift",
       "kind": "BooleanLiteral",
-      "offset": 8892,
+      "offset": 9192,
       "length": 4,
       "value": "true"
     },
@@ -11639,1113 +11687,1162 @@
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 6808,
+      "offset": 6782,
+      "length": 12,
+      "value": "\"iPhone19,2\""
+    },
+    {
+      "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
+      "kind": "StringLiteral",
+      "offset": 6838,
+      "length": 15,
+      "value": "\"iPhone 18 Pro\""
+    },
+    {
+      "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
+      "kind": "StringLiteral",
+      "offset": 6871,
+      "length": 12,
+      "value": "\"iPhone19,3\""
+    },
+    {
+      "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
+      "kind": "StringLiteral",
+      "offset": 6885,
+      "length": 12,
+      "value": "\"iPhone19,7\""
+    },
+    {
+      "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
+      "kind": "StringLiteral",
+      "offset": 6927,
+      "length": 19,
+      "value": "\"iPhone 18 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
+      "kind": "StringLiteral",
+      "offset": 6964,
+      "length": 12,
+      "value": "\"iPhone19,4\""
+    },
+    {
+      "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
+      "kind": "StringLiteral",
+      "offset": 7020,
+      "length": 12,
+      "value": "\"iPhone Duo\""
+    },
+    {
+      "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
+      "kind": "StringLiteral",
+      "offset": 7051,
       "length": 9,
       "value": "\"iPad1,1\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 6819,
+      "offset": 7062,
       "length": 9,
       "value": "\"iPad1,2\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 6864,
+      "offset": 7107,
       "length": 6,
       "value": "\"iPad\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 6888,
+      "offset": 7131,
       "length": 9,
       "value": "\"iPad2,1\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 6899,
+      "offset": 7142,
       "length": 9,
       "value": "\"iPad2,2\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 6910,
+      "offset": 7153,
       "length": 9,
       "value": "\"iPad2,3\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 6921,
+      "offset": 7164,
       "length": 9,
       "value": "\"iPad2,4\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 6944,
+      "offset": 7187,
       "length": 8,
       "value": "\"iPad 2\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 6970,
+      "offset": 7213,
       "length": 9,
       "value": "\"iPad3,1\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 6981,
+      "offset": 7224,
       "length": 9,
       "value": "\"iPad3,2\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 6992,
+      "offset": 7235,
       "length": 9,
       "value": "\"iPad3,3\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7026,
+      "offset": 7269,
       "length": 23,
       "value": "\"iPad (3rd generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7067,
+      "offset": 7310,
       "length": 9,
       "value": "\"iPad3,4\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7078,
+      "offset": 7321,
       "length": 9,
       "value": "\"iPad3,5\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7089,
+      "offset": 7332,
       "length": 9,
       "value": "\"iPad3,6\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7123,
+      "offset": 7366,
       "length": 23,
       "value": "\"iPad (4th generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7164,
+      "offset": 7407,
       "length": 10,
       "value": "\"iPad6,11\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7176,
+      "offset": 7419,
       "length": 10,
       "value": "\"iPad6,12\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7220,
+      "offset": 7463,
       "length": 23,
       "value": "\"iPad (5th generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7261,
+      "offset": 7504,
       "length": 9,
       "value": "\"iPad7,5\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7272,
+      "offset": 7515,
       "length": 9,
       "value": "\"iPad7,6\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7317,
+      "offset": 7560,
       "length": 23,
       "value": "\"iPad (6th generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7358,
+      "offset": 7601,
       "length": 10,
       "value": "\"iPad7,11\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7370,
+      "offset": 7613,
       "length": 10,
       "value": "\"iPad7,12\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7414,
+      "offset": 7657,
       "length": 23,
       "value": "\"iPad (7th generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7455,
+      "offset": 7698,
       "length": 10,
       "value": "\"iPad11,6\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7467,
+      "offset": 7710,
       "length": 10,
       "value": "\"iPad11,7\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7511,
+      "offset": 7754,
       "length": 23,
       "value": "\"iPad (8th generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7552,
+      "offset": 7795,
       "length": 10,
       "value": "\"iPad12,1\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7564,
+      "offset": 7807,
       "length": 10,
       "value": "\"iPad12,2\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7608,
+      "offset": 7851,
       "length": 23,
       "value": "\"iPad (9th generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7649,
+      "offset": 7892,
       "length": 11,
       "value": "\"iPad13,18\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7662,
+      "offset": 7905,
       "length": 11,
       "value": "\"iPad13,19\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7705,
+      "offset": 7948,
       "length": 24,
       "value": "\"iPad (10th generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7747,
+      "offset": 7990,
       "length": 10,
       "value": "\"iPad15,7\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7759,
+      "offset": 8002,
       "length": 10,
       "value": "\"iPad15,8\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7803,
+      "offset": 8046,
       "length": 12,
       "value": "\"iPad (A16)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7833,
+      "offset": 8076,
       "length": 9,
       "value": "\"iPad4,1\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7844,
+      "offset": 8087,
       "length": 9,
       "value": "\"iPad4,2\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7855,
+      "offset": 8098,
       "length": 9,
       "value": "\"iPad4,3\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7889,
+      "offset": 8132,
       "length": 10,
       "value": "\"iPad Air\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7917,
+      "offset": 8160,
       "length": 9,
       "value": "\"iPad5,3\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7928,
+      "offset": 8171,
       "length": 9,
       "value": "\"iPad5,4\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 7973,
+      "offset": 8216,
       "length": 12,
       "value": "\"iPad Air 2\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8003,
+      "offset": 8246,
       "length": 10,
       "value": "\"iPad11,3\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8015,
+      "offset": 8258,
       "length": 10,
       "value": "\"iPad11,4\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8059,
+      "offset": 8302,
       "length": 27,
       "value": "\"iPad Air (3rd generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8104,
+      "offset": 8347,
       "length": 10,
       "value": "\"iPad13,1\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8116,
+      "offset": 8359,
       "length": 10,
       "value": "\"iPad13,2\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8160,
+      "offset": 8403,
       "length": 27,
       "value": "\"iPad Air (4th generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8205,
+      "offset": 8448,
       "length": 11,
       "value": "\"iPad13,16\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8218,
+      "offset": 8461,
       "length": 11,
       "value": "\"iPad13,17\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8261,
+      "offset": 8504,
       "length": 27,
       "value": "\"iPad Air (5th generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8306,
+      "offset": 8549,
       "length": 10,
       "value": "\"iPad14,8\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8318,
+      "offset": 8561,
       "length": 10,
       "value": "\"iPad14,9\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8362,
+      "offset": 8605,
       "length": 23,
       "value": "\"iPad Air 11-inch (M2)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8403,
+      "offset": 8646,
       "length": 11,
       "value": "\"iPad14,10\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8416,
+      "offset": 8659,
       "length": 11,
       "value": "\"iPad14,11\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8459,
+      "offset": 8702,
       "length": 23,
       "value": "\"iPad Air 13-inch (M2)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8500,
+      "offset": 8743,
       "length": 10,
       "value": "\"iPad15,3\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8512,
+      "offset": 8755,
       "length": 10,
       "value": "\"iPad15,4\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8556,
+      "offset": 8799,
       "length": 23,
       "value": "\"iPad Air 11-inch (M3)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8597,
+      "offset": 8840,
       "length": 10,
       "value": "\"iPad15,5\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8609,
+      "offset": 8852,
       "length": 10,
       "value": "\"iPad15,6\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8653,
+      "offset": 8896,
       "length": 23,
       "value": "\"iPad Air 13-inch (M3)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8694,
+      "offset": 8937,
       "length": 10,
       "value": "\"iPad16,8\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8706,
+      "offset": 8949,
       "length": 10,
       "value": "\"iPad16,9\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8750,
+      "offset": 8993,
       "length": 23,
       "value": "\"iPad Air 11-inch (M4)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8791,
+      "offset": 9034,
       "length": 11,
       "value": "\"iPad16,10\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8804,
+      "offset": 9047,
       "length": 11,
       "value": "\"iPad16,11\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8847,
+      "offset": 9090,
       "length": 23,
       "value": "\"iPad Air 13-inch (M4)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8888,
+      "offset": 9131,
       "length": 9,
       "value": "\"iPad2,5\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8899,
+      "offset": 9142,
       "length": 9,
       "value": "\"iPad2,6\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8910,
+      "offset": 9153,
       "length": 9,
       "value": "\"iPad2,7\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8944,
+      "offset": 9187,
       "length": 11,
       "value": "\"iPad mini\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8973,
+      "offset": 9216,
       "length": 9,
       "value": "\"iPad4,4\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8984,
+      "offset": 9227,
       "length": 9,
       "value": "\"iPad4,5\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 8995,
+      "offset": 9238,
       "length": 9,
       "value": "\"iPad4,6\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9029,
+      "offset": 9272,
       "length": 13,
       "value": "\"iPad mini 2\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9060,
+      "offset": 9303,
       "length": 9,
       "value": "\"iPad4,7\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9071,
+      "offset": 9314,
       "length": 9,
       "value": "\"iPad4,8\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9082,
+      "offset": 9325,
       "length": 9,
       "value": "\"iPad4,9\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9116,
+      "offset": 9359,
       "length": 13,
       "value": "\"iPad mini 3\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9147,
+      "offset": 9390,
       "length": 9,
       "value": "\"iPad5,1\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9158,
+      "offset": 9401,
       "length": 9,
       "value": "\"iPad5,2\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9203,
+      "offset": 9446,
       "length": 13,
       "value": "\"iPad mini 4\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9234,
+      "offset": 9477,
       "length": 10,
       "value": "\"iPad11,1\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9246,
+      "offset": 9489,
       "length": 10,
       "value": "\"iPad11,2\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9290,
+      "offset": 9533,
       "length": 28,
       "value": "\"iPad mini (5th generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9336,
+      "offset": 9579,
       "length": 10,
       "value": "\"iPad14,1\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9348,
+      "offset": 9591,
       "length": 10,
       "value": "\"iPad14,2\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9392,
+      "offset": 9635,
       "length": 28,
       "value": "\"iPad mini (6th generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9438,
+      "offset": 9681,
       "length": 10,
       "value": "\"iPad16,1\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9450,
+      "offset": 9693,
       "length": 10,
       "value": "\"iPad16,2\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9494,
+      "offset": 9737,
       "length": 21,
       "value": "\"iPad mini (A17 Pro)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9533,
+      "offset": 9776,
       "length": 9,
       "value": "\"iPad6,3\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9544,
+      "offset": 9787,
       "length": 9,
       "value": "\"iPad6,4\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9589,
+      "offset": 9832,
       "length": 21,
       "value": "\"iPad Pro (9.7-inch)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9628,
+      "offset": 9871,
       "length": 9,
       "value": "\"iPad7,3\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9639,
+      "offset": 9882,
       "length": 9,
       "value": "\"iPad7,4\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9684,
+      "offset": 9927,
       "length": 22,
       "value": "\"iPad Pro (10.5-inch)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9724,
+      "offset": 9967,
       "length": 9,
       "value": "\"iPad8,1\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9735,
+      "offset": 9978,
       "length": 9,
       "value": "\"iPad8,2\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9746,
+      "offset": 9989,
       "length": 9,
       "value": "\"iPad8,3\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9757,
+      "offset": 10000,
       "length": 9,
       "value": "\"iPad8,4\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9780,
+      "offset": 10023,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (1st generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9835,
+      "offset": 10078,
       "length": 9,
       "value": "\"iPad8,9\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9846,
+      "offset": 10089,
       "length": 10,
       "value": "\"iPad8,10\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9891,
+      "offset": 10134,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (2nd generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9946,
+      "offset": 10189,
       "length": 10,
       "value": "\"iPad13,4\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9958,
+      "offset": 10201,
       "length": 10,
       "value": "\"iPad13,5\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9970,
+      "offset": 10213,
       "length": 10,
       "value": "\"iPad13,6\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 9982,
+      "offset": 10225,
       "length": 10,
       "value": "\"iPad13,7\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10002,
+      "offset": 10245,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (3rd generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10057,
+      "offset": 10300,
       "length": 10,
       "value": "\"iPad14,3\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10069,
+      "offset": 10312,
       "length": 10,
       "value": "\"iPad14,4\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10113,
+      "offset": 10356,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (4th generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10168,
+      "offset": 10411,
       "length": 10,
       "value": "\"iPad16,3\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10180,
+      "offset": 10423,
       "length": 10,
       "value": "\"iPad16,4\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10224,
+      "offset": 10467,
       "length": 23,
       "value": "\"iPad Pro 11-inch (M4)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10265,
+      "offset": 10508,
       "length": 10,
       "value": "\"iPad17,1\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10277,
+      "offset": 10520,
       "length": 10,
       "value": "\"iPad17,2\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10321,
+      "offset": 10564,
       "length": 23,
       "value": "\"iPad Pro 11-inch (M5)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10362,
+      "offset": 10605,
       "length": 9,
       "value": "\"iPad6,7\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10373,
+      "offset": 10616,
       "length": 9,
       "value": "\"iPad6,8\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10418,
+      "offset": 10661,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (1st generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10475,
+      "offset": 10718,
       "length": 9,
       "value": "\"iPad7,1\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10486,
+      "offset": 10729,
       "length": 9,
       "value": "\"iPad7,2\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10531,
+      "offset": 10774,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (2nd generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10588,
+      "offset": 10831,
       "length": 9,
       "value": "\"iPad8,5\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10599,
+      "offset": 10842,
       "length": 9,
       "value": "\"iPad8,6\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10610,
+      "offset": 10853,
       "length": 9,
       "value": "\"iPad8,7\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10621,
+      "offset": 10864,
       "length": 9,
       "value": "\"iPad8,8\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10644,
+      "offset": 10887,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (3rd generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10701,
+      "offset": 10944,
       "length": 10,
       "value": "\"iPad8,11\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10713,
+      "offset": 10956,
       "length": 10,
       "value": "\"iPad8,12\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10757,
+      "offset": 11000,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (4th generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10814,
+      "offset": 11057,
       "length": 10,
       "value": "\"iPad13,8\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10826,
+      "offset": 11069,
       "length": 10,
       "value": "\"iPad13,9\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10838,
+      "offset": 11081,
       "length": 11,
       "value": "\"iPad13,10\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10851,
+      "offset": 11094,
       "length": 11,
       "value": "\"iPad13,11\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10870,
+      "offset": 11113,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (5th generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10927,
+      "offset": 11170,
       "length": 10,
       "value": "\"iPad14,5\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10939,
+      "offset": 11182,
       "length": 10,
       "value": "\"iPad14,6\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 10983,
+      "offset": 11226,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (6th generation)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 11040,
+      "offset": 11283,
       "length": 10,
       "value": "\"iPad16,5\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 11052,
+      "offset": 11295,
       "length": 10,
       "value": "\"iPad16,6\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 11096,
+      "offset": 11339,
       "length": 23,
       "value": "\"iPad Pro 13-inch (M4)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 11137,
+      "offset": 11380,
       "length": 10,
       "value": "\"iPad17,3\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 11149,
+      "offset": 11392,
       "length": 10,
       "value": "\"iPad17,4\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 11193,
+      "offset": 11436,
       "length": 23,
       "value": "\"iPad Pro 13-inch (M5)\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 11234,
+      "offset": 11477,
       "length": 6,
       "value": "\"i386\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 11242,
+      "offset": 11485,
       "length": 8,
       "value": "\"x86_64\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 11252,
+      "offset": 11495,
       "length": 7,
       "value": "\"arm64\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 11261,
+      "offset": 11504,
       "length": 8,
       "value": "\"arm64e\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 11290,
+      "offset": 11533,
       "length": 104,
       "value": "\"Simulator \""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 11353,
+      "offset": 11596,
       "length": 28,
       "value": "\"SIMULATOR_MODEL_IDENTIFIER\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 11386,
+      "offset": 11629,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/victor\/Work\/Xcode\/mobile-sdks-dxa-ios\/MedalliaDXA\/MedalliaDXA\/Core\/Utils\/Extensions\/UIDevice+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 11393,
+      "offset": 11636,
       "length": 1,
       "value": "\"\""
     },
